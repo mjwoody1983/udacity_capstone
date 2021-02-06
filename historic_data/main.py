@@ -1,16 +1,26 @@
-# This is a sample Python script.
+import datetime as dt
+import pandas as pd
+from urllib.request import urlopen
+import chardet
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+now = dt.datetime.now()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# leagues by season csv file contains all of the leagues that we want to load through.
+url_path = 'https://www.football-data.co.uk/mmz4281/'
+start_year = 2000
+final_year = now.year - 1
+files = open('leagues_by_season.csv')
+files_to_load = files.read()
+seasons = []
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# loop through each year and create season code for every season since 2000
+for year in range(start_year, final_year):
+    season_start = str(year)
+    season_end = str(year + 1)
+    year_url = season_start[-2:] + season_end[-2:]
+    seasons.append(year_url)
+
+
+
+
