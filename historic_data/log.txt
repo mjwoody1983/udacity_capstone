@@ -1,0 +1,80 @@
+Traceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 36, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 300: Multiple Choices
+Traceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 36, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 300: Multiple Choices
+Traceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 36, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 300: Multiple Choices
+Traceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 36, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 300: Multiple Choices
+Traceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 36, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 640, in http_response
+    response = self.parent.error(
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 300: Multiple Choices
