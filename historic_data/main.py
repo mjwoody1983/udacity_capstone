@@ -11,10 +11,12 @@ url_path = 'https://www.football-data.co.uk/mmz4281/'
 start_year = 2000
 final_year = now.year - 1
 files = open('leagues_by_season.csv')
-files_to_load = files.read()
-seasons = []
+files_to_load = files.read().split(",")
+url_path = 'https://www.football-data.co.uk/mmz4281/'
+
 
 # loop through each year and create season code for every season since 2000
+seasons = []
 for year in range(start_year, final_year):
     season_start = str(year)
     season_end = str(year + 1)
@@ -22,5 +24,11 @@ for year in range(start_year, final_year):
     seasons.append(year_url)
 
 
+for files in files_to_load:
+    for y in seasons:
+        print('files is: ' + files + ' season is: ' + y)
 
+# fd = urlopen('https://www.football-data.co.uk/mmz4281/2021/e0.csv')
+# print(type(fd))
+# print(chardet.detect(fd.read()))
 
