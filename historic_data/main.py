@@ -6,13 +6,19 @@ import traceback
 
 now = dt.datetime.now()
 
+# ***********************************************************************************
+#                       VARIABLES SECTION FOR FUNCTION
+# ***********************************************************************************
 # leagues by season csv file contains all of the leagues that we want to load through.
 url_path = 'https://www.football-data.co.uk/mmz4281/'
 start_year = 2000
 final_year = now.year - 1
 files = open('leagues_by_season.csv')
 files_to_load = files.read().split(",")
-url_path = 'https://www.football-data.co.uk/mmz4281/'
+# Extra leagues, single file source - no seasons to loop
+url_ext_path = 'https://www.football-data.co.uk/argentina.php/'
+files_ext = open('extra_leagues.csv')
+files_to_load_ext = files_ext.read().split(",")
 
 # loop through each year and create season code for every season since 2000
 seasons = []
@@ -22,11 +28,11 @@ for year in range(start_year, final_year):
     year_url = season_start[-2:] + season_end[-2:]
     seasons.append(year_url)
 
-filesLoad = ['E0.csv']
-league_path = 'https://www.football-data.co.uk/mmz4281/0001/'
+# todo: Keep this for initial testing then remove
+# filesLoad = ['E0.csv']
+# league_path = 'https://www.football-data.co.uk/mmz4281/0001/'
 
-arcResults = []
-list_ = []
+arc_results = []
 with open("log.txt", "w") as log:
     for files in files_to_load:
         for y in seasons:
@@ -36,24 +42,38 @@ with open("log.txt", "w") as log:
                 fd = urlopen(url_path + y + '/' + files.replace("'", ""))
                 cDet = chardet.detect(urlopen(url_path + y + '/' + files.replace("'", "")).read())
                 e_coding = cDet.get('encoding')
-                # print(e_coding)
-                df = pd.read_csv(fd, sep='delimiter', header=None, encoding=e_coding, engine='python')
+                df = pd.read_csv(fd, sep='delimiter', encoding=e_coding, engine='python')
                 print('File loaded')
-                arcResults.append(df)
+                arc_results.append(df)
             except Exception as e:
                 print('logging_exception and continuing')
+                file_missing = url_path + y + '/' + files.replace("'", "")
+                log.write('Triggered by the following variable: ' + file_missing)
                 traceback.print_exc(file=log)
                 continue
-frame = pd.concat(arcResults)
+frame = pd.concat(arc_results)
+
+extra_results = []
+with open("log_extra.txt", "w") as log:
+    for f in files_to_load_ext:
+        try:
+            print(f)
+            print(url_ext_path + f)
+            fd = urlopen(url_ext_path + f.replace("'", ""))
+            c_det = chardet.detect(urlopen(url_ext_path + f.replace("'", "")).read())
+            e_coding = c_det.get('encoding')
+            df = pd.read_csv(fd, sep='delimiter', encoding=e_coding, engine='python')
+            print('Extra File loaded: ' + f)
+            extra_results.append(df)
+        except Exception as e:
+            print('logging_exception and continuing')
+            error_file = url_ext_path + f
+            log.write('Triggered by the following variable: ' + error_file)
+            traceback.print_exc(file=log)
+            continue
+frame_extra = pd.concat(extra_results)
 
 
 
-#
-# for files in filesLoad:
-#     for y in range(1,5):
-#         print(y)
-#         fd = urlopen(league_path + files)
-#         df = pd.read_csv(fd, encoding='ascii')
-#         list_.append(df)
-# frame = pd.concat(list_)
-# print(list_)
+
+
