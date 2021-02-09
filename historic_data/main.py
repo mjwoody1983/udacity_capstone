@@ -16,7 +16,7 @@ final_year = now.year - 1
 files = open('leagues_by_season.csv')
 files_to_load = files.read().split(",")
 # Extra leagues, single file source - no seasons to loop
-url_ext_path = 'https://www.football-data.co.uk/argentina.php/'
+url_ext_path = 'https://www.football-data.co.uk/'
 files_ext = open('extra_leagues.csv')
 files_to_load_ext = files_ext.read().split(",")
 
@@ -58,7 +58,7 @@ with open("log_extra.txt", "w") as log:
     for f in files_to_load_ext:
         try:
             print(f)
-            print(url_ext_path + f)
+            print(url_ext_path + f.replace("'", ""))
             fd = urlopen(url_ext_path + f.replace("'", ""))
             c_det = chardet.detect(urlopen(url_ext_path + f.replace("'", "")).read())
             e_coding = c_det.get('encoding')
@@ -72,7 +72,37 @@ with open("log_extra.txt", "w") as log:
             traceback.print_exc(file=log)
             continue
 frame_extra = pd.concat(extra_results)
+print(frame_extra)
 
+current_season = []
+
+with open("log_extra.txt", "w") as log:
+    for f in files_to_load:
+        try:
+            if now.month > 7:
+                season_start = str(now.year)
+                season_end = str(now.year + 1)
+                year_url = season_start[-2:] + season_end[-2:]
+            else:
+                season_start = str(now.year - 1)
+                season_end = str(now.year)
+                year_url = season_start[-2:] + season_end[-2:]
+            print(f)
+            print(url_path + year_url + '/' + f.replace("'", ""))
+            fd = urlopen(url_path + year_url + '/' + f.replace("'", ""))
+            c_det = chardet.detect(urlopen(url_path + year_url + '/' + f.replace("'", "")).read())
+            e_coding = c_det.get('encoding')
+            df = pd.read_csv(fd, sep='delimiter', encoding=e_coding, engine='python')
+            print('Extra File loaded: ' + f)
+            current_season.append(df)
+        except Exception as e:
+            print('logging_exception and continuing')
+            error_file = url_path + year_url + '/' + f.replace("'", "")
+            log.write('Triggered by the following variable: ' + error_file)
+            traceback.print_exc(file=log)
+            continue
+frame_extra = pd.concat(current_season)
+print(frame_extra)
 
 
 
