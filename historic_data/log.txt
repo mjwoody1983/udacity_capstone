@@ -1,5 +1,5 @@
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0001/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 41, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -15,7 +15,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/000
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0102/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 41, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -31,7 +31,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/010
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0203/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 41, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -47,7 +47,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/020
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0304/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 41, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -63,7 +63,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/030
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0405/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 41, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)

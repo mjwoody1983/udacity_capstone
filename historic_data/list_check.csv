@@ -1,0 +1,1236 @@
+"    Div      Date       HomeTeam       AwayTeam  ...   SBA   WHH  WHD   WHA
+0    E0  19/08/00       Charlton       Man City  ...  2.88  2.10  3.2  3.10
+1    E0  19/08/00        Chelsea       West Ham  ...  6.00  1.44  3.6  6.50
+2    E0  19/08/00       Coventry  Middlesbrough  ...  2.75  2.30  3.2  2.62
+3    E0  19/08/00          Derby    Southampton  ...  3.20  2.00  3.2  3.20
+4    E0  19/08/00          Leeds        Everton  ...  5.00  1.61  3.5  4.50
+..   ..       ...            ...            ...  ...   ...   ...  ...   ...
+375  E0  19/05/01       Man City        Chelsea  ...  1.70  4.00  3.1  1.80
+376  E0  19/05/01  Middlesbrough       West Ham  ...  3.50  1.83  3.4  3.50
+377  E0  19/05/01      Newcastle    Aston Villa  ...  2.50  2.25  3.4  2.60
+378  E0  19/05/01    Southampton        Arsenal  ...  2.30  2.62  3.5  2.20
+379  E0  19/05/01      Tottenham     Man United  ...  2.35  2.62  3.3  2.25
+
+[380 rows x 45 columns]","    Div      Date     HomeTeam     AwayTeam  ...    SYA    WHH   WHD    WHA
+0    E0  18/08/01     Charlton      Everton  ...  3.250  2.000  3.20   3.20
+1    E0  18/08/01        Derby    Blackburn  ...  2.750  2.250  3.20   2.75
+2    E0  18/08/01        Leeds  Southampton  ...  6.500  1.360  3.75   8.00
+3    E0  18/08/01    Leicester       Bolton  ...  3.600  1.720  3.40   4.00
+4    E0  18/08/01    Liverpool     West Ham  ...  6.500  1.360  3.75   8.00
+..   ..       ...          ...          ...  ...    ...    ...   ...    ...
+375  E0  11/05/02    Liverpool      Ipswich  ...  6.000  1.333  4.50   6.50
+376  E0  11/05/02   Man United     Charlton  ...  8.500  1.200  5.00  11.00
+377  E0  11/05/02  Southampton    Newcastle  ...  2.375  2.625  3.25   2.30
+378  E0  11/05/02   Sunderland        Derby  ...  7.500  1.444  3.30   7.50
+379  E0  11/05/02     West Ham       Bolton  ...  5.000  1.533  3.40   5.50
+
+[380 rows x 48 columns]","    Div        Date    HomeTeam  ... Unnamed: 50  Unnamed: 51  Unnamed: 52
+0    E0  17/08/2002   Blackburn  ...         NaN          NaN          NaN
+1    E0  17/08/2002    Charlton  ...         NaN          NaN          NaN
+2    E0  17/08/2002     Everton  ...         NaN          NaN          NaN
+3    E0  17/08/2002      Fulham  ...         NaN          NaN          NaN
+4    E0  17/08/2002       Leeds  ...         NaN          NaN          NaN
+..   ..         ...         ...  ...         ...          ...          ...
+375  E0  11/05/2003       Leeds  ...         NaN          NaN          NaN
+376  E0  11/05/2003    Man City  ...         NaN          NaN          NaN
+377  E0  11/05/2003  Sunderland  ...         NaN          NaN          NaN
+378  E0  11/05/2003   Tottenham  ...         NaN          NaN          NaN
+379  E0  11/05/2003   West Brom  ...         NaN          NaN          NaN
+
+[380 rows x 53 columns]","    Div      Date       HomeTeam       AwayTeam  ...  LBAH  B365AHH B365AHA  B365AH
+0    E0  16/08/03        Arsenal        Everton  ... -1.25    1.975   1.925   -1.25
+1    E0  16/08/03     Birmingham      Tottenham  ...  0.00    2.100   1.800   -0.25
+2    E0  16/08/03      Blackburn         Wolves  ... -0.75    1.950   1.950   -0.75
+3    E0  16/08/03         Fulham  Middlesbrough  ...  0.00    2.100   1.800   -0.25
+4    E0  16/08/03      Leicester    Southampton  ...  0.00    1.850   2.050    0.00
+..   ..       ...            ...            ...  ...   ...      ...     ...     ...
+330  E0  08/05/04      Leicester     Portsmouth  ...   NaN      NaN     NaN     NaN
+331  E0  08/05/04     Man United        Chelsea  ... -0.25    1.875   2.025   -0.25
+332  E0  08/05/04  Middlesbrough       Man City  ... -0.25    1.900   2.000   -0.25
+333  E0  08/05/04    Southampton    Aston Villa  ...  0.25    1.850   2.050    0.25
+334  E0  08/05/04      Tottenham      Blackburn  ... -0.25    2.000   1.900   -0.25
+
+[335 rows x 57 columns]","    Div      Date       HomeTeam     AwayTeam  ...  LBAH  B365AHH B365AHA  B365AH
+0    E0  14/08/04    Aston Villa  Southampton  ... -0.50    2.000   1.900   -0.50
+1    E0  14/08/04      Blackburn    West Brom  ... -0.50    1.850   2.050   -0.50
+2    E0  14/08/04         Bolton     Charlton  ... -0.25    2.000   1.900   -0.25
+3    E0  14/08/04       Man City       Fulham  ... -0.25    1.850   2.050   -0.25
+4    E0  14/08/04  Middlesbrough    Newcastle  ... -0.25    1.800   2.100    0.00
+..   ..       ...            ...          ...  ...   ...      ...     ...     ...
+330  E0  20/04/05        Everton   Man United  ...  0.50    2.025   1.875    0.50
+331  E0  20/04/05       Man City   Birmingham  ... -0.25    1.775   2.125   -0.25
+332  E0  20/04/05        Norwich    Newcastle  ...  0.00    1.850   2.050    0.00
+333  E0  20/04/05     Portsmouth    Liverpool  ...  0.25    2.049   1.850    0.25
+334  E0  20/04/05      Tottenham    West Brom  ... -0.75    2.025   1.875   -0.75
+
+[335 rows x 57 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E0  13/08/05    Aston Villa  ...    2.01     1.92     1.84
+1    E0  13/08/05        Everton  ...    2.00     1.93     1.86
+2    E0  13/08/05         Fulham  ...    1.81     2.11     2.05
+3    E0  13/08/05       Man City  ...    2.10     1.83     1.76
+4    E0  13/08/05  Middlesbrough  ...    1.86     2.04     2.00
+..   ..       ...            ...  ...     ...      ...      ...
+375  E0  07/05/06         Fulham  ...    1.81     2.10     2.05
+376  E0  07/05/06     Man United  ...    1.90     2.04     1.96
+377  E0  07/05/06      Newcastle  ...    2.09     1.83     1.76
+378  E0  07/05/06     Portsmouth  ...    2.12     1.83     1.76
+379  E0  07/05/06       West Ham  ...    1.91     2.00     1.96
+
+[380 rows x 68 columns]","    Div      Date          HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E0  19/08/06           Arsenal  ...    1.98     1.90     1.85
+1    E0  19/08/06            Bolton  ...    1.96     1.92     1.83
+2    E0  19/08/06           Everton  ...    1.94     1.96     1.93
+3    E0  19/08/06         Newcastle  ...    2.06     1.93     1.81
+4    E0  19/08/06        Portsmouth  ...    1.75     2.20     2.06
+..   ..       ...               ...  ...     ...      ...      ...
+375  E0  13/05/07     Middlesbrough  ...    1.92     2.01     1.94
+376  E0  13/05/07        Portsmouth  ...    2.04     1.85     1.77
+377  E0  13/05/07  Sheffield United  ...    2.01     1.92     1.85
+378  E0  13/05/07         Tottenham  ...    1.81     2.12     2.04
+379  E0  13/05/07           Watford  ...    1.99     1.88     1.81
+
+[380 rows x 68 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E0  11/08/07    Aston Villa  ...    1.85     2.07     1.95
+1    E0  11/08/07         Bolton  ...    1.75     2.18     2.04
+2    E0  11/08/07          Derby  ...    2.09     1.76     1.71
+3    E0  11/08/07        Everton  ...    1.94     2.02     1.94
+4    E0  11/08/07  Middlesbrough  ...    1.77     2.10     1.97
+..   ..       ...            ...  ...     ...      ...      ...
+375  E0  11/05/08     Portsmouth  ...    2.34     1.57     1.54
+376  E0  11/05/08     Sunderland  ...    3.13     1.36     1.32
+377  E0  11/05/08      Tottenham  ...    1.91     1.94     1.87
+378  E0  11/05/08       West Ham  ...    2.26     1.67     1.58
+379  E0  11/05/08          Wigan  ...    9.06     1.06     1.04
+
+[380 rows x 71 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E0  16/08/08        Arsenal  ...    1.81     2.12     1.97
+1    E0  16/08/08         Bolton  ...    1.31     3.56     3.27
+2    E0  16/08/08        Everton  ...    1.43     3.05     2.76
+3    E0  16/08/08           Hull  ...    1.85     2.07     1.94
+4    E0  16/08/08  Middlesbrough  ...    2.30     1.65     1.58
+..   ..       ...            ...  ...     ...      ...      ...
+375  E0  24/05/09      Liverpool  ...    2.06     1.85     1.79
+376  E0  24/05/09       Man City  ...    1.74     2.22     2.15
+377  E0  24/05/09     Sunderland  ...    1.97     1.94     1.91
+378  E0  24/05/09       West Ham  ...    1.63     2.40     2.21
+379  E0  24/05/09          Wigan  ...    1.53     2.50     2.44
+
+[380 rows x 71 columns]","    Div      Date     HomeTeam    AwayTeam  ...  BbMxAHH  BbAvAHH BbMxAHA  BbAvAHA
+0    E0  15/08/09  Aston Villa       Wigan  ...     1.28     1.22    4.40     3.99
+1    E0  15/08/09    Blackburn    Man City  ...     2.58     2.38    1.60     1.54
+2    E0  15/08/09       Bolton  Sunderland  ...     1.68     1.61    2.33     2.23
+3    E0  15/08/09      Chelsea        Hull  ...     1.03     1.02   17.05    12.96
+4    E0  15/08/09      Everton     Arsenal  ...     2.27     2.20    1.73     1.63
+..   ..       ...          ...         ...  ...      ...      ...     ...      ...
+375  E0  09/05/10      Everton  Portsmouth  ...     1.10     1.06   10.00     7.72
+376  E0  09/05/10         Hull   Liverpool  ...     5.00     4.38    1.20     1.18
+377  E0  09/05/10   Man United       Stoke  ...     2.08     2.02    1.91     1.85
+378  E0  09/05/10     West Ham    Man City  ...     3.25     2.99    1.44     1.35
+379  E0  09/05/10       Wolves  Sunderland  ...     1.73     1.64    2.33     2.16
+
+[380 rows x 71 columns]","    Div      Date     HomeTeam    AwayTeam  ...  BbMxAHH  BbAvAHH BbMxAHA  BbAvAHA
+0    E0  14/08/10  Aston Villa    West Ham  ...     1.45     1.40    3.00     2.78
+1    E0  14/08/10    Blackburn     Everton  ...     2.20     2.05    1.85     1.75
+2    E0  14/08/10       Bolton      Fulham  ...     1.60     1.55    2.56     2.36
+3    E0  14/08/10      Chelsea   West Brom  ...     2.06     2.01    1.91     1.85
+4    E0  14/08/10   Sunderland  Birmingham  ...     1.64     1.55    2.50     2.38
+..   ..       ...          ...         ...  ...      ...      ...     ...      ...
+375  E0  22/05/11    Newcastle   West Brom  ...     2.13     2.09    1.84     1.81
+376  E0  22/05/11        Stoke       Wigan  ...     2.10     2.00    1.93     1.85
+377  E0  22/05/11    Tottenham  Birmingham  ...     1.93     1.89    2.03     1.99
+378  E0  22/05/11     West Ham  Sunderland  ...     2.05     1.98    1.94     1.91
+379  E0  22/05/11       Wolves   Blackburn  ...     1.88     1.85    2.07     2.03
+
+[380 rows x 71 columns]","    Div      Date    HomeTeam     AwayTeam  ...  BbMxAHH  BbAvAHH BbMxAHA  BbAvAHA
+0    E0  13/08/11   Blackburn       Wolves  ...     2.20     2.14    1.78     1.74
+1    E0  13/08/11      Fulham  Aston Villa  ...     1.83     1.80    2.14     2.08
+2    E0  13/08/11   Liverpool   Sunderland  ...     1.92     1.88    2.02     1.98
+3    E0  13/08/11   Newcastle      Arsenal  ...     1.84     1.79    2.16     2.10
+4    E0  13/08/11         QPR       Bolton  ...     2.00     1.95    1.98     1.92
+..   ..       ...         ...          ...  ...      ...      ...     ...      ...
+375  E0  13/05/12  Sunderland   Man United  ...     1.95     1.89    2.03     1.97
+376  E0  13/05/12     Swansea    Liverpool  ...     2.13     2.06    1.84     1.81
+377  E0  13/05/12   Tottenham       Fulham  ...     1.93     1.90    2.02     1.97
+378  E0  13/05/12   West Brom      Arsenal  ...     2.14     2.08    1.85     1.81
+379  E0  13/05/12       Wigan       Wolves  ...     2.01     1.96    1.97     1.90
+
+[380 rows x 71 columns]","    Div      Date   HomeTeam     AwayTeam  ...  BbAvAHA  PSCH  PSCD   PSCA
+0    E0  18/08/12    Arsenal   Sunderland  ...     1.91  1.44  4.72   8.71
+1    E0  18/08/12     Fulham      Norwich  ...     2.09  1.84  3.75   4.75
+2    E0  18/08/12  Newcastle    Tottenham  ...     1.97  2.83  3.35   2.72
+3    E0  18/08/12        QPR      Swansea  ...     2.13  2.00  3.53   4.15
+4    E0  18/08/12    Reading        Stoke  ...     1.86  2.47  3.30   3.22
+..   ..       ...        ...          ...  ...      ...   ...   ...    ...
+375  E0  19/05/13    Swansea       Fulham  ...     1.91  1.66  4.09   5.76
+376  E0  19/05/13  Tottenham   Sunderland  ...     2.09  1.25  6.60  15.00
+377  E0  19/05/13  West Brom   Man United  ...     2.07  3.65  3.42   2.17
+378  E0  19/05/13   West Ham      Reading  ...     1.77  1.59  4.36   6.13
+379  E0  19/05/13      Wigan  Aston Villa  ...     2.07  2.10  3.56   3.77
+
+[380 rows x 74 columns]","    Div      Date     HomeTeam     AwayTeam  ...  BbAvAHA  PSCH  PSCD   PSCA
+0    E0  17/08/13      Arsenal  Aston Villa  ...      NaN  1.44  5.00   8.05
+1    E0  17/08/13    Liverpool        Stoke  ...      NaN  1.42  4.62  10.19
+2    E0  17/08/13      Norwich      Everton  ...      NaN  3.81  3.27   2.21
+3    E0  17/08/13   Sunderland       Fulham  ...      NaN  2.52  3.23   3.16
+4    E0  17/08/13      Swansea   Man United  ...      NaN  3.62  3.41   2.22
+..   ..       ...          ...          ...  ...      ...   ...   ...    ...
+375  E0  11/05/14      Norwich      Arsenal  ...     2.07  4.97  4.29   1.70
+376  E0  11/05/14  Southampton   Man United  ...     1.99  2.77  3.92   2.47
+377  E0  11/05/14   Sunderland      Swansea  ...     1.63  2.19  3.60   3.50
+378  E0  11/05/14    Tottenham  Aston Villa  ...     2.10  1.47  4.75   7.64
+379  E0  11/05/14    West Brom        Stoke  ...     2.11  2.18  3.69   3.44
+
+[380 rows x 68 columns]","     Div      Date    HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD   PSCA
+0     E0  16/08/14     Arsenal  Crystal Palace  ...     2.10  1.29  5.90  12.75
+1     E0  16/08/14   Leicester         Everton  ...     2.02  3.11  3.40   2.47
+2     E0  16/08/14  Man United         Swansea  ...     1.79  1.45  4.81   8.25
+3     E0  16/08/14         QPR            Hull  ...     2.14  2.31  3.24   3.59
+4     E0  16/08/14       Stoke     Aston Villa  ...     1.96  2.01  3.34   4.51
+..   ...       ...         ...             ...  ...      ...   ...   ...    ...
+376   E0  24/05/15   Leicester             QPR  ...     1.93  1.53  4.94   6.13
+377   E0  24/05/15    Man City     Southampton  ...     1.93  1.60  4.35   6.00
+378   E0  24/05/15   Newcastle        West Ham  ...     2.10  1.76  4.01   4.98
+379   E0  24/05/15       Stoke       Liverpool  ...     1.85  3.56  3.60   2.17
+380  NaN       NaN         NaN             NaN  ...      NaN   NaN   NaN    NaN
+
+[381 rows x 68 columns]","    Div        Date     HomeTeam     AwayTeam  ...  BbAvAHA  PSCH  PSCD   PSCA
+0    E0  08/08/2015  Bournemouth  Aston Villa  ...     1.92  1.82  3.88   4.70
+1    E0  08/08/2015      Chelsea      Swansea  ...     1.73  1.37  5.04  10.88
+2    E0  08/08/2015      Everton      Watford  ...     1.71  1.75  3.76   5.44
+3    E0  08/08/2015    Leicester   Sunderland  ...     1.90  1.79  3.74   5.10
+4    E0  08/08/2015   Man United    Tottenham  ...     1.78  1.64  4.07   6.04
+..   ..         ...          ...          ...  ...      ...   ...   ...    ...
+375  E0  15/05/2016        Stoke     West Ham  ...     1.83  3.05  4.00   2.26
+376  E0  15/05/2016      Swansea     Man City  ...     1.81  7.05  5.00   1.47
+377  E0  15/05/2016      Watford   Sunderland  ...     1.85  1.64  4.52   5.27
+378  E0  15/05/2016    West Brom    Liverpool  ...     1.81  2.61  3.75   2.70
+379  E0  17/05/2016   Man United  Bournemouth  ...     2.02  1.50  4.60   7.03
+
+[380 rows x 65 columns]","    Div      Date        HomeTeam        AwayTeam  ...  BbAvAHA   PSCH   PSCD   PSCA
+0    E0  13/08/16         Burnley         Swansea  ...     1.81   2.79   3.16   2.89
+1    E0  13/08/16  Crystal Palace       West Brom  ...     1.85   2.25   3.15   3.86
+2    E0  13/08/16         Everton       Tottenham  ...     2.00   3.64   3.54   2.16
+3    E0  13/08/16            Hull       Leicester  ...     1.67   4.68   3.50   1.92
+4    E0  13/08/16        Man City      Sunderland  ...     2.14   1.25   6.50  14.50
+..   ..       ...             ...             ...  ...      ...    ...    ...    ...
+375  E0  21/05/17       Liverpool   Middlesbrough  ...     1.90   1.15  10.50  19.09
+376  E0  21/05/17      Man United  Crystal Palace  ...     1.79   2.35   3.38   3.35
+377  E0  21/05/17     Southampton           Stoke  ...     1.88   1.64   4.37   5.53
+378  E0  21/05/17         Swansea       West Brom  ...     1.82   2.29   3.45   3.40
+379  E0  21/05/17         Watford        Man City  ...     1.93  18.00   9.70   1.16
+
+[380 rows x 65 columns]","    Div        Date        HomeTeam      AwayTeam  ...  BbAvAHA   PSCH  PSCD   PSCA
+0    E0  11/08/2017         Arsenal     Leicester  ...     2.02   1.49  4.73   7.25
+1    E0  12/08/2017        Brighton      Man City  ...     1.96  11.75  6.15   1.29
+2    E0  12/08/2017         Chelsea       Burnley  ...     1.90   1.33  5.40  12.25
+3    E0  12/08/2017  Crystal Palace  Huddersfield  ...     1.83   1.79  3.56   5.51
+4    E0  12/08/2017         Everton         Stoke  ...     1.98   1.82  3.49   5.42
+..   ..         ...             ...           ...  ...      ...    ...   ...    ...
+375  E0  13/05/2018       Newcastle       Chelsea  ...     2.03   4.85  3.72   1.80
+376  E0  13/05/2018     Southampton      Man City  ...     1.91   6.32  4.78   1.51
+377  E0  13/05/2018         Swansea         Stoke  ...     1.98   2.08  3.56   3.82
+378  E0  13/05/2018       Tottenham     Leicester  ...     2.00   1.38  5.50   8.15
+379  E0  13/05/2018        West Ham       Everton  ...     1.84   2.35  3.40   3.28
+
+[380 rows x 65 columns]","    Div        Date      HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E0  10/08/2018    Man United       Leicester  ...     2.21  1.55  4.07  7.69
+1    E0  11/08/2018   Bournemouth         Cardiff  ...     1.75  1.88  3.61  4.70
+2    E0  11/08/2018        Fulham  Crystal Palace  ...     1.77  2.62  3.38  2.90
+3    E0  11/08/2018  Huddersfield         Chelsea  ...     2.06  7.24  3.95  1.58
+4    E0  11/08/2018     Newcastle       Tottenham  ...     1.76  4.74  3.53  1.89
+..   ..         ...           ...             ...  ...      ...   ...   ...   ...
+375  E0  12/05/2019     Liverpool          Wolves  ...     1.95  1.32  5.89  9.48
+376  E0  12/05/2019    Man United         Cardiff  ...     1.64  1.30  6.06  9.71
+377  E0  12/05/2019   Southampton    Huddersfield  ...     1.73  1.37  5.36  8.49
+378  E0  12/05/2019     Tottenham         Everton  ...     1.80  1.91  3.81  4.15
+379  E0  12/05/2019       Watford        West Ham  ...     1.72  2.11  3.86  3.41
+
+[380 rows x 62 columns]","    Div        Date   Time        HomeTeam  ... MaxCAHH  MaxCAHA  AvgCAHH AvgCAHA
+0    E0  09/08/2019  20:00       Liverpool  ...    1.99     2.07     1.90    1.99
+1    E0  10/08/2019  12:30        West Ham  ...    2.07     1.98     1.97    1.92
+2    E0  10/08/2019  15:00     Bournemouth  ...    2.00     1.96     1.96    1.92
+3    E0  10/08/2019  15:00         Burnley  ...    1.90     2.07     1.86    2.02
+4    E0  10/08/2019  15:00  Crystal Palace  ...    2.03     2.08     1.96    1.93
+..   ..         ...    ...             ...  ...     ...      ...      ...     ...
+375  E0  26/07/2020  16:00       Leicester  ...    1.94     2.05     1.86    2.02
+376  E0  26/07/2020  16:00        Man City  ...    2.06     1.88     2.02    1.84
+377  E0  26/07/2020  16:00       Newcastle  ...    2.03     2.00     1.95    1.92
+378  E0  26/07/2020  16:00     Southampton  ...    2.03     1.96     1.98    1.89
+379  E0  26/07/2020  16:00        West Ham  ...    1.99     2.00     1.93    1.95
+
+[380 rows x 106 columns]","    Div      Date        HomeTeam        AwayTeam  ...   SBA   WHH   WHD   WHA
+0    E1  12/08/00        Barnsley         Norwich  ...  4.33  1.66  3.30  4.50
+1    E1  12/08/00       Blackburn  Crystal Palace  ...  6.50  1.44  3.60  6.50
+2    E1  12/08/00          Bolton         Burnley  ...  4.50  1.66  3.40  4.33
+3    E1  12/08/00          Fulham           Crewe  ...  7.00  1.40  3.75  7.00
+4    E1  12/08/00      Gillingham       Stockport  ...  2.88  2.00  3.20  3.20
+..   ..       ...             ...             ...  ...   ...   ...   ...   ...
+547  E1  06/05/01  Sheffield Weds           Crewe  ...  3.60  1.80  3.40  3.60
+548  E1  06/05/01       Stockport  Crystal Palace  ...  2.00  3.00  3.40  2.00
+549  E1  06/05/01        Tranmere   Nott'm Forest  ...  2.40  2.50  3.10  2.50
+550  E1  06/05/01       Wimbledon         Norwich  ...  4.33  1.72  3.40  4.00
+551  E1  06/05/01          Wolves             QPR  ...  4.80  1.61  3.30  5.00
+
+[552 rows x 45 columns]","    Div      Date        HomeTeam        AwayTeam  ...    SYA   WHH  WHD   WHA
+0    E1  11/08/01        Bradford        Barnsley  ...  3.750  1.72  3.4  4.00
+1    E1  11/08/01      Gillingham         Preston  ...  2.500  2.50  3.1  2.50
+2    E1  11/08/01         Grimsby           Crewe  ...  2.880  1.90  3.4  3.25
+3    E1  11/08/01        Man City         Watford  ...  3.750  1.72  3.4  4.00
+4    E1  11/08/01        Millwall         Norwich  ...  3.400  1.83  3.2  3.75
+..   ..       ...             ...             ...  ...    ...   ...  ...   ...
+547  E1  21/04/02  Sheffield Weds          Wolves  ...  1.727  4.50  3.3  1.66
+548  E1  21/04/02         Walsall        Bradford  ...  3.000  1.90  3.3  3.30
+549  E1  21/04/02         Watford      Gillingham  ...  3.000  1.90  3.3  3.30
+550  E1  21/04/02       West Brom  Crystal Palace  ...  7.500  1.30  4.5  7.50
+551  E1  21/04/02       Wimbledon        Barnsley  ...  5.000  1.57  3.5  5.00
+
+[552 rows x 48 columns]","    Div      Date        HomeTeam  ... GB<2.5  B365>2.5  B365<2.5
+0    E1  10/08/02         Burnley  ...   1.92       NaN       NaN
+1    E1  10/08/02        Coventry  ...   1.94       NaN       NaN
+2    E1  10/08/02           Derby  ...   1.94       NaN       NaN
+3    E1  10/08/02       Leicester  ...   1.94       NaN       NaN
+4    E1  10/08/02        Millwall  ...   1.94       NaN       NaN
+..   ..       ...             ...  ...    ...       ...       ...
+515  E1  04/05/03  Sheffield Weds  ...    NaN       NaN       NaN
+516  E1  04/05/03           Stoke  ...    NaN       NaN       NaN
+517  E1  04/05/03         Watford  ...    NaN       NaN       NaN
+518  E1  04/05/03       Wimbledon  ...    NaN       NaN       NaN
+519  E1  04/05/03          Wolves  ...    NaN       NaN       NaN
+
+[520 rows x 48 columns]","    Div      Date   HomeTeam        AwayTeam  ...  LBAH  B365AHH B365AHA  B365AH
+0    E1  09/08/03   Bradford         Norwich  ... -0.25     1.80    2.05    0.00
+1    E1  09/08/03    Burnley  Crystal Palace  ... -0.25     2.05    1.80   -0.25
+2    E1  09/08/03      Derby           Stoke  ... -0.50     1.85    2.00   -0.50
+3    E1  09/08/03    Ipswich         Reading  ... -0.50     2.00    1.85   -0.50
+4    E1  09/08/03   Millwall           Wigan  ... -0.50     2.10    1.75   -0.50
+..   ..       ...        ...             ...  ...   ...      ...     ...     ...
+547  E1  09/05/04    Walsall       Rotherham  ...   NaN      NaN     NaN     NaN
+548  E1  09/05/04    Watford         Reading  ...   NaN      NaN     NaN     NaN
+549  E1  09/05/04  West Brom   Nott'm Forest  ...   NaN     2.10    1.75   -0.75
+550  E1  09/05/04      Wigan        West Ham  ... -0.25     1.95    1.90   -0.25
+551  E1  09/05/04  Wimbledon           Derby  ...   NaN      NaN     NaN     NaN
+
+[552 rows x 57 columns]","    Div      Date    HomeTeam          AwayTeam  ...  LBAH  B365AHH B365AHA  B365AH
+0    E1  07/08/04     Burnley  Sheffield United  ...  0.00    1.925   1.925    0.00
+1    E1  07/08/04    Coventry        Sunderland  ... -0.25    1.900   1.950    0.00
+2    E1  07/08/04       Crewe           Cardiff  ...  0.00    1.900   1.950    0.00
+3    E1  07/08/04     Ipswich        Gillingham  ... -0.75    1.900   1.950    0.50
+4    E1  07/08/04       Leeds             Derby  ... -0.50    1.925   1.925   -0.50
+..   ..       ...         ...               ...  ...   ...      ...     ...     ...
+387  E1  08/05/05    Plymouth         Leicester  ...   NaN    2.050   1.800   -0.25
+388  E1  08/05/05  Sunderland             Stoke  ...   NaN    1.925   1.925   -1.00
+389  E1  08/05/05     Watford          West Ham  ...   NaN    1.875   1.975    0.75
+390  E1  08/05/05       Wigan           Reading  ... -0.75    1.750   2.100   -0.75
+391  E1  08/05/05      Wolves  Sheffield United  ...   NaN    2.100   1.750   -0.50
+
+[392 rows x 57 columns]","    Div      Date          HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  06/08/05             Crewe  ...    2.06     1.83     1.77
+1    E1  06/08/05    Crystal Palace  ...    2.12     1.80     1.73
+2    E1  06/08/05             Derby  ...    1.80     2.09     2.03
+3    E1  06/08/05              Hull  ...    1.81     2.05     2.01
+4    E1  06/08/05           Ipswich  ...    2.07     1.78     1.76
+..   ..       ...               ...  ...     ...      ...      ...
+547  E1  30/04/06           Preston  ...    1.88     2.04     1.99
+548  E1  30/04/06           Reading  ...    1.95     1.98     1.90
+549  E1  30/04/06  Sheffield United  ...    1.95     1.95     1.91
+550  E1  30/04/06       Southampton  ...    2.10     1.80     1.78
+551  E1  30/04/06           Watford  ...    1.90     2.05     1.98
+
+[552 rows x 68 columns]","    Div      Date        HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  05/08/06        Barnsley  ...    1.84     2.09     1.96
+1    E1  05/08/06      Birmingham  ...    1.92     1.97     1.92
+2    E1  05/08/06         Burnley  ...    1.85     2.05     2.01
+3    E1  05/08/06         Ipswich  ...    1.85     2.10     1.96
+4    E1  05/08/06           Leeds  ...    2.02     1.89     1.84
+..   ..       ...             ...  ...     ...      ...      ...
+547  E1  06/05/07         Preston  ...    1.70     2.10     2.00
+548  E1  06/05/07             QPR  ...    2.37     1.55     1.51
+549  E1  06/05/07  Sheffield Weds  ...    1.37     3.00     2.79
+550  E1  06/05/07     Southampton  ...    1.04    10.10     7.88
+551  E1  06/05/07       West Brom  ...    1.07     7.80     6.49
+
+[552 rows x 68 columns]","    Div      Date        HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  11/08/07        Barnsley  ...    1.85     2.00     1.94
+1    E1  11/08/07    Bristol City  ...    1.87     2.05     2.00
+2    E1  11/08/07         Burnley  ...    1.90     2.03     1.88
+3    E1  11/08/07         Cardiff  ...    1.54     2.60     2.32
+4    E1  11/08/07        Charlton  ...    1.96     1.92     1.88
+..   ..       ...             ...  ...     ...      ...      ...
+547  E1  04/05/08      Scunthorpe  ...    2.02     1.90     1.84
+548  E1  04/05/08  Sheffield Weds  ...    1.87     2.07     1.99
+549  E1  04/05/08     Southampton  ...    1.84     2.10     2.02
+550  E1  04/05/08           Stoke  ...    1.87     2.03     1.99
+551  E1  04/05/08          Wolves  ...    1.95     1.97     1.89
+
+[552 rows x 71 columns]","    Div      Date        HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  09/08/08      Birmingham  ...    2.04     1.89     1.83
+1    E1  09/08/08       Blackpool  ...    1.80     2.08     2.00
+2    E1  09/08/08         Cardiff  ...    2.00     1.94     1.88
+3    E1  09/08/08        Charlton  ...    1.89     2.02     1.98
+4    E1  09/08/08        Coventry  ...    1.66     2.26     2.16
+..   ..       ...             ...  ...     ...      ...      ...
+547  E1  03/05/09         Reading  ...    1.85     2.08     2.04
+548  E1  03/05/09  Sheffield Weds  ...    2.09     1.84     1.81
+549  E1  03/05/09         Swansea  ...    1.99     1.94     1.89
+550  E1  03/05/09         Watford  ...    1.94     1.99     1.95
+551  E1  03/05/09          Wolves  ...    1.87     2.05     2.02
+
+[552 rows x 71 columns]","    Div      Date        HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  07/08/09   Middlesbrough  ...    1.60     2.38     2.26
+1    E1  08/08/09         Cardiff  ...    1.23     4.16     3.80
+2    E1  08/08/09  Crystal Palace  ...    1.38     2.98     2.82
+3    E1  08/08/09           Derby  ...    1.42     2.75     2.67
+4    E1  08/08/09       Leicester  ...    1.56     2.46     2.32
+..   ..       ...             ...  ...     ...      ...      ...
+547  E1  02/05/10         Reading  ...    1.23     4.40     3.72
+548  E1  02/05/10      Scunthorpe  ...    2.01     1.85     1.77
+549  E1  02/05/10  Sheffield Weds  ...    1.61     2.33     2.19
+550  E1  02/05/10         Swansea  ...    1.14     5.50     4.88
+551  E1  02/05/10       West Brom  ...    1.81     2.12     2.05
+
+[552 rows x 71 columns]","    Div      Date        HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  06/08/10         Norwich  ...    1.34     3.25     3.06
+1    E1  07/08/10    Bristol City  ...    1.37     3.00     2.86
+2    E1  07/08/10         Burnley  ...    1.59     2.42     2.27
+3    E1  07/08/10        Coventry  ...    1.62     2.35     2.20
+4    E1  07/08/10  Crystal Palace  ...    1.88     1.99     1.87
+..   ..       ...             ...  ...     ...      ...      ...
+547  E1  07/05/11         Preston  ...    1.95     1.91     1.85
+548  E1  07/05/11             QPR  ...    2.11     1.82     1.77
+549  E1  07/05/11         Reading  ...    1.72     2.28     2.18
+550  E1  07/05/11      Scunthorpe  ...    2.03     1.84     1.78
+551  E1  07/05/11         Swansea  ...    1.16     5.00     4.65
+
+[552 rows x 71 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E1  05/08/11           Hull  ...    1.92     1.98     1.94
+1    E1  06/08/11       Brighton  ...    1.83     2.09     2.01
+2    E1  06/08/11   Bristol City  ...    1.74     2.14     2.09
+3    E1  06/08/11        Burnley  ...    1.87     2.03     1.95
+4    E1  06/08/11       Coventry  ...    1.83     2.10     2.02
+..   ..       ...            ...  ...     ...      ...      ...
+547  E1  28/04/12       Millwall  ...    1.74     2.25     2.10
+548  E1  28/04/12  Nott'm Forest  ...    1.32     3.20     3.05
+549  E1  28/04/12    Southampton  ...    1.67     2.30     2.24
+550  E1  28/04/12        Watford  ...    2.06     1.84     1.77
+551  E1  28/04/12       West Ham  ...    1.78     2.15     2.07
+
+[552 rows x 71 columns]","    Div      Date        HomeTeam       AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E1  17/08/12         Cardiff   Huddersfield  ...     1.93  1.72  3.82  5.60
+1    E1  18/08/12        Barnsley  Middlesbrough  ...     1.97  3.66  3.62  2.12
+2    E1  18/08/12      Birmingham       Charlton  ...     2.05  1.78  3.71  5.28
+3    E1  18/08/12         Burnley         Bolton  ...     1.78  2.75  3.46  2.72
+4    E1  18/08/12  Crystal Palace        Watford  ...     2.15  2.73  3.30  2.85
+..   ..       ...             ...            ...  ...      ...   ...   ...   ...
+547  E1  04/05/13    Huddersfield       Barnsley  ...     1.90  2.50  3.45  2.95
+548  E1  04/05/13            Hull        Cardiff  ...     1.85  2.02  3.76  3.79
+549  E1  04/05/13   Nott'm Forest      Leicester  ...     1.81  2.54  3.56  2.84
+550  E1  04/05/13  Sheffield Weds  Middlesbrough  ...     1.76  1.92  3.76  4.24
+551  E1  04/05/13         Watford          Leeds  ...     1.72  1.43  4.99  7.83
+
+[552 rows x 73 columns]","    Div      Date       HomeTeam       AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E1  03/08/13       Barnsley          Wigan  ...     2.06  4.08  3.47  2.06
+1    E1  03/08/13     Birmingham        Watford  ...     1.77  3.85  3.39  2.14
+2    E1  03/08/13    Bournemouth       Charlton  ...     1.72  2.47  3.26  3.25
+3    E1  03/08/13        Burnley         Bolton  ...     1.95  2.59  3.44  2.90
+4    E1  03/08/13      Doncaster      Blackpool  ...     2.05  3.03  3.22  2.63
+..   ..       ...            ...            ...  ...      ...   ...   ...   ...
+547  E1  03/05/14       Millwall    Bournemouth  ...     1.88  2.02  3.88  3.75
+548  E1  03/05/14  Nott'm Forest       Brighton  ...     1.83  3.72  3.82  2.04
+549  E1  03/05/14        Reading        Burnley  ...     1.79  1.97  3.94  3.88
+550  E1  03/05/14        Watford   Huddersfield  ...     1.83  1.97  4.02  3.77
+551  E1  03/05/14         Yeovil  Middlesbrough  ...     1.63  3.19  3.70  2.29
+
+[552 rows x 68 columns]","     Div      Date       HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0     E1  08/08/14      Blackburn         Cardiff  ...     2.31  2.12  3.53  3.74
+1     E1  09/08/14      Brentford        Charlton  ...     1.92  1.99  3.59  4.18
+2     E1  09/08/14       Brighton  Sheffield Weds  ...     1.97  1.97  3.49  4.42
+3     E1  09/08/14          Derby       Rotherham  ...     1.88  1.59  4.34  6.27
+4     E1  09/08/14   Huddersfield     Bournemouth  ...     1.93  2.75  3.46  2.73
+..   ...       ...            ...             ...  ...      ...   ...   ...   ...
+548   E1  02/05/15        Norwich          Fulham  ...     1.86  1.42  5.24  7.98
+549   E1  02/05/15  Nott'm Forest         Cardiff  ...     1.90  2.02  3.82  3.76
+550   E1  02/05/15        Watford  Sheffield Weds  ...     1.76  1.36  5.48  9.67
+551   E1  02/05/15         Wolves        Millwall  ...     1.77  1.38  5.44  9.38
+552  NaN       NaN            NaN             NaN  ...      NaN   NaN   NaN   NaN
+
+[553 rows x 68 columns]","    Div      Date            HomeTeam  ...  PSCH  PSCD  PSCA
+0    E1  07/08/15            Brighton  ...  2.24  3.42  3.55
+1    E1  08/08/15          Birmingham  ...  2.53  3.28  3.08
+2    E1  08/08/15           Blackburn  ...  2.63  3.37  2.87
+3    E1  08/08/15              Bolton  ...  4.06  3.65  1.98
+4    E1  08/08/15           Brentford  ...  2.13  3.61  3.59
+..   ..       ...                 ...  ...   ...   ...   ...
+547  E1  07/05/16       Middlesbrough  ...  2.06  3.45  3.97
+548  E1  07/05/16  Milton Keynes Dons  ...  3.06  3.46  2.44
+549  E1  07/05/16             Preston  ...  2.16  3.69  3.43
+550  E1  07/05/16                 QPR  ...  2.47  3.59  2.92
+551  E1  07/05/16              Wolves  ...  2.37  3.53  3.13
+
+[552 rows x 65 columns]","    Div      Date        HomeTeam   AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E1  05/08/16          Fulham  Newcastle  ...     1.72  4.39  3.42  2.00
+1    E1  06/08/16      Birmingham    Cardiff  ...     1.84  2.53  3.26  3.14
+2    E1  06/08/16       Blackburn    Norwich  ...     1.94  3.64  3.33  2.25
+3    E1  06/08/16    Bristol City      Wigan  ...     1.94  2.23  3.50  3.49
+4    E1  06/08/16           Derby   Brighton  ...     2.07  2.28  3.31  3.57
+..   ..       ...             ...        ...  ...      ...   ...   ...   ...
+547  E1  07/05/17   Nott'm Forest    Ipswich  ...     1.80  1.56  4.43  6.26
+548  E1  07/05/17       Rotherham      Derby  ...     1.91  4.66  4.06  1.77
+549  E1  07/05/17  Sheffield Weds     Fulham  ...     1.82  2.83  3.53  2.57
+550  E1  07/05/17           Wigan      Leeds  ...     2.03  2.55  3.54  2.86
+551  E1  07/05/17          Wolves    Preston  ...     1.81  2.11  3.70  3.57
+
+[552 rows x 65 columns]","    Div      Date        HomeTeam     AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E1  04/08/17   Nott'm Forest     Millwall  ...     1.86  1.98  3.50  4.25
+1    E1  04/08/17      Sunderland        Derby  ...     2.02  2.77  3.16  2.84
+2    E1  05/08/17     Aston Villa         Hull  ...     1.82  1.96  3.39  4.64
+3    E1  05/08/17    Bristol City     Barnsley  ...     2.05  1.61  4.18  6.30
+4    E1  05/08/17          Burton      Cardiff  ...     2.08  3.26  3.27  2.45
+..   ..       ...             ...          ...  ...      ...   ...   ...   ...
+547  E1  06/05/18           Leeds          QPR  ...     1.95  1.87  3.98  4.19
+548  E1  06/05/18        Millwall  Aston Villa  ...     1.82  2.43  3.68  2.93
+549  E1  06/05/18         Preston       Burton  ...     1.94  1.54  4.77  5.98
+550  E1  06/05/18  Sheffield Weds      Norwich  ...     1.91  3.13  3.58  2.35
+551  E1  06/05/18      Sunderland       Wolves  ...     1.90  6.43  4.50  1.55
+
+[552 rows x 65 columns]","    Div        Date        HomeTeam  ...  PSCH  PSCD  PSCA
+0    E1  03/08/2018         Reading  ...  3.78  3.29  2.19
+1    E1  04/08/2018      Birmingham  ...  2.86  3.14  2.79
+2    E1  04/08/2018       Brentford  ...  1.56  4.38  6.30
+3    E1  04/08/2018    Bristol City  ...  2.77  3.33  2.74
+4    E1  04/08/2018         Ipswich  ...  3.23  3.15  2.51
+..   ..         ...             ...  ...   ...   ...   ...
+547  E1  05/05/2019         Reading  ...  2.75  3.40  2.72
+548  E1  05/05/2019       Rotherham  ...  4.93  4.27  1.69
+549  E1  05/05/2019  Sheffield Weds  ...  1.98  3.60  4.09
+550  E1  05/05/2019           Stoke  ...  3.36  3.45  2.28
+551  E1  05/05/2019           Wigan  ...  2.17  3.57  3.52
+
+[552 rows x 62 columns]","    Div        Date   Time        HomeTeam  ... MaxCAHH  MaxCAHA  AvgCAHH AvgCAHA
+0    E1  02/08/2019  19:45           Luton  ...    1.98     1.98     1.94    1.93
+1    E1  03/08/2019  15:00        Barnsley  ...    2.07     1.88     2.02    1.84
+2    E1  03/08/2019  15:00       Blackburn  ...    1.94     2.02     1.89    1.98
+3    E1  03/08/2019  15:00       Brentford  ...    2.01     1.96     1.96    1.90
+4    E1  03/08/2019  15:00        Millwall  ...    2.13     1.87     2.08    1.80
+..   ..         ...    ...             ...  ...     ...      ...      ...     ...
+547  E1  22/07/2020  19:30   Nott'm Forest  ...    2.02     1.95     1.96    1.89
+548  E1  22/07/2020  19:30         Reading  ...    1.95     2.06     1.88    1.96
+549  E1  22/07/2020  19:30  Sheffield Weds  ...    1.83     2.14     1.79    2.07
+550  E1  22/07/2020  19:30       West Brom  ...    1.95     2.00     1.92    1.94
+551  E1  22/07/2020  19:30           Wigan  ...    2.07     1.96     1.99    1.86
+
+[552 rows x 106 columns]","    Div      Date     HomeTeam      AwayTeam  ...   SBA   WHH   WHD   WHA
+0    E2  12/08/00  Bristol Rvs   Bournemouth  ...  4.33  1.66  3.40  4.50
+1    E2  12/08/00    Cambridge          Bury  ...  2.75  2.20  3.40  2.75
+2    E2  12/08/00        Luton  Notts County  ...  2.75  2.10  3.25  3.00
+3    E2  12/08/00     Millwall       Reading  ...  3.50  1.90  3.25  3.50
+4    E2  12/08/00  Northampton     Brentford  ...  3.00  2.20  3.40  2.75
+..   ..       ...          ...           ...  ...   ...   ...   ...   ...
+547  E2  05/05/01      Reading   Bournemouth  ...  2.50  2.30  3.40  2.60
+548  E2  05/05/01        Stoke       Swindon  ...  7.50  1.33  4.33  7.50
+549  E2  05/05/01      Swansea     Cambridge  ...  2.70  2.20  3.25  2.80
+550  E2  05/05/01        Wigan  Bristol City  ...  6.00  1.44  4.20  5.50
+551  E2  05/05/01      Wycombe    Colchester  ...  3.00  1.90  3.25  3.50
+
+[552 rows x 45 columns]","    Div      Date      HomeTeam     AwayTeam  ...    SYA   WHH   WHD   WHA
+0    E2  11/08/01     Blackpool      Reading  ...  2.250   NaN   NaN   NaN
+1    E2  11/08/01     Cambridge     Brighton  ...  2.500  2.50  3.20  2.50
+2    E2  11/08/01       Cardiff      Wycombe  ...  4.000  1.72  3.50  4.00
+3    E2  11/08/01  Chesterfield   Colchester  ...  3.000  1.90  3.50  3.25
+4    E2  11/08/01  Huddersfield  Bournemouth  ...  4.330  1.61  3.60  4.50
+..   ..       ...           ...          ...  ...    ...   ...   ...   ...
+547  E2  20/04/02     Peterboro         Bury  ...  4.333  1.72  3.40  4.20
+548  E2  20/04/02     Port Vale     Brighton  ...  2.250  2.50  3.20  2.50
+549  E2  20/04/02       Swindon      Wycombe  ...  2.800  2.00  3.25  3.25
+550  E2  20/04/02      Tranmere      Cardiff  ...  2.200  2.50  3.20  2.50
+551  E2  20/04/02       Wrexham  Bournemouth  ...  1.833  3.25  3.50  1.90
+
+[552 rows x 48 columns]","    Div      Date      HomeTeam   AwayTeam  FTHG  ...   SBD    SBA   WHH   WHD   WHA
+0    E2  10/08/02  Bristol City  Blackpool     2  ...  3.40  4.500  1.66  3.40  4.33
+1    E2  10/08/02    Cheltenham      Wigan     0  ...  3.20  2.300  2.80  3.20  2.20
+2    E2  10/08/02    Colchester  Stockport     1  ...  3.20  2.500  2.50  3.10  2.50
+3    E2  10/08/02  Huddersfield  Brentford     0  ...  3.25  3.800  1.72  3.25  4.20
+4    E2  10/08/02         Luton  Peterboro     2  ...  3.40  4.500  1.66  3.40  4.33
+..   ..       ...           ...        ...   ...  ...   ...    ...   ...   ...   ...
+346  E2  02/02/03  Chesterfield        QPR     2  ...  3.20  2.620  2.50  3.10  2.50
+347  E2  04/02/03    Cheltenham   Tranmere     3  ...  3.20  2.300  2.75  3.25  2.20
+348  E2  04/02/03  Huddersfield   Plymouth     1  ...  3.20  2.400  2.50  3.10  2.50
+349  E2  04/02/03     Mansfield  Brentford     0  ...  3.20  2.700  2.50  3.10  2.50
+350  E2  04/02/03   Northampton    Cardiff     0  ...  3.25  1.909  3.75  3.30  1.80
+
+[351 rows x 44 columns]","    Div      Date        HomeTeam      AwayTeam  ...  GBAH  B365AHH B365AHA  B365AH
+0    E2  09/08/03        Barnsley    Colchester  ...   NaN      NaN     NaN     NaN
+1    E2  09/08/03    Bristol City  Notts County  ...   NaN      NaN     NaN     NaN
+2    E2  09/08/03           Luton   Rushden & D  ...   NaN      NaN     NaN     NaN
+3    E2  09/08/03          Oldham      Brighton  ...   NaN      NaN     NaN     NaN
+4    E2  09/08/03       Peterboro    Hartlepool  ...   NaN      NaN     NaN     NaN
+..   ..       ...             ...           ...  ...   ...      ...     ...     ...
+499  E2  08/05/04  Sheffield Weds           QPR  ...   0.5      NaN     NaN     NaN
+500  E2  08/05/04       Stockport      Barnsley  ...  -0.5     2.00    1.85    -0.5
+501  E2  08/05/04         Swindon    Hartlepool  ...  -0.5     1.75    2.10     0.0
+502  E2  08/05/04        Tranmere       Grimsby  ...  -0.5      NaN     NaN     NaN
+503  E2  08/05/04         Wrexham      Brighton  ...  -0.5      NaN     NaN     NaN
+
+[504 rows x 52 columns]","    Div      Date        HomeTeam      AwayTeam  ...  LBAH  B365AHH B365AHA  B365AH
+0    E2  07/08/04    Bristol City       Torquay  ... -0.75    2.000   1.850   -1.00
+1    E2  07/08/04    Chesterfield     Brentford  ...  0.00    1.850   2.000    0.00
+2    E2  07/08/04       Doncaster     Blackpool  ... -0.50    1.800   2.050   -0.25
+3    E2  07/08/04      Hartlepool      Bradford  ... -0.25    1.825   2.025   -0.25
+4    E2  07/08/04            Hull   Bournemouth  ... -0.50    1.875   1.975   -0.50
+..   ..       ...             ...           ...  ...   ...      ...     ...     ...
+371  E2  07/05/05       Port Vale     Peterboro  ...   NaN    2.000   1.850   -0.75
+372  E2  07/05/05  Sheffield Weds  Bristol City  ...   NaN    1.825   2.025   -0.25
+373  E2  07/05/05         Swindon  Chesterfield  ...   NaN    2.025   1.825   -0.50
+374  E2  07/05/05         Walsall     Stockport  ...   NaN    1.975   1.875   -1.00
+375  E2  07/05/05         Wrexham  Huddersfield  ...   NaN    1.925   1.925    0.00
+
+[376 rows x 55 columns]","    Div      Date      HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  06/08/05      Barnsley  ...    2.07     1.85     1.79
+1    E2  06/08/05     Blackpool  ...    1.92     1.97     1.93
+2    E2  06/08/05     Brentford  ...    1.76     2.17     2.09
+3    E2  06/08/05  Bristol City  ...    1.87     2.00     1.98
+4    E2  06/08/05    Gillingham  ...    1.82     2.10     2.02
+..   ..       ...           ...  ...     ...      ...      ...
+547  E2  06/05/06      Southend  ...    2.12     1.75     1.75
+548  E2  06/05/06       Swindon  ...    1.95     1.90     1.86
+549  E2  06/05/06      Tranmere  ...    1.97     1.93     1.85
+550  E2  06/05/06       Walsall  ...    1.83     2.02     1.96
+551  E2  06/05/06        Yeovil  ...    1.76     2.15     2.03
+
+[552 rows x 68 columns]","    Div      Date      HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  05/08/06   Bournemouth  ...    1.74     2.13     2.11
+1    E2  05/08/06     Brentford  ...    1.94     1.93     1.91
+2    E2  05/08/06  Bristol City  ...    2.01     1.85     1.84
+3    E2  05/08/06      Carlisle  ...    1.83     2.03     1.99
+4    E2  05/08/06         Crewe  ...    1.94     1.90     1.85
+..   ..       ...           ...  ...     ...      ...      ...
+547  E2  05/05/07        Oldham  ...    1.05     6.90     6.85
+548  E2  05/05/07     Port Vale  ...    1.40     2.70     2.63
+549  E2  05/05/07    Scunthorpe  ...    1.23     3.70     3.60
+550  E2  05/05/07       Swansea  ...    1.62     2.20     2.10
+551  E2  05/05/07      Tranmere  ...    1.21     3.95     3.73
+
+[552 rows x 68 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  11/08/07     Cheltenham  ...    1.63     2.10     2.07
+1    E2  11/08/07          Crewe  ...    1.51     2.63     2.35
+2    E2  11/08/07      Doncaster  ...    1.55     2.50     2.27
+3    E2  11/08/07   Huddersfield  ...    1.59     2.38     2.16
+4    E2  11/08/07          Luton  ...    1.86     2.10     1.98
+..   ..       ...            ...  ...     ...      ...      ...
+547  E2  03/05/08    Northampton  ...    1.97     1.95     1.91
+548  E2  03/05/08  Nott'm Forest  ...    1.96     1.97     1.89
+549  E2  03/05/08       Southend  ...    2.05     1.86     1.81
+550  E2  03/05/08        Swindon  ...    2.05     1.88     1.80
+551  E2  03/05/08        Walsall  ...    2.12     1.83     1.74
+
+[552 rows x 71 columns]","    Div      Date      HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  09/08/08   Bristol Rvs  ...    1.76     2.16     2.07
+1    E2  09/08/08         Crewe  ...    1.81     2.11     2.00
+2    E2  09/08/08    Hartlepool  ...    1.85     2.01     1.96
+3    E2  09/08/08  Huddersfield  ...    1.84     2.06     2.00
+4    E2  09/08/08     Leicester  ...    1.84     2.06     2.00
+..   ..       ...           ...  ...     ...      ...      ...
+547  E2  02/05/09     Peterboro  ...    1.88     2.04     1.99
+548  E2  02/05/09    Scunthorpe  ...    1.82     2.09     2.05
+549  E2  02/05/09      Southend  ...    1.88     2.05     1.99
+550  E2  02/05/09       Walsall  ...    1.93     1.98     1.94
+551  E2  02/05/09        Yeovil  ...    1.99     1.91     1.88
+
+[552 rows x 71 columns]","    Div      Date     HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  08/08/09     Brighton  ...    1.35     3.05     2.93
+1    E2  08/08/09  Bristol Rvs  ...    1.39     3.00     2.69
+2    E2  08/08/09     Carlisle  ...    1.58     2.45     2.22
+3    E2  08/08/09     Charlton  ...    1.24     3.80     3.64
+4    E2  08/08/09   Gillingham  ...    1.68     2.28     2.13
+..   ..       ...          ...  ...     ...      ...      ...
+547  E2  08/05/10       Oldham  ...    3.21     1.36     1.30
+548  E2  08/05/10  Southampton  ...    2.02     1.87     1.81
+549  E2  08/05/10    Stockport  ...    3.83     1.25     1.22
+550  E2  08/05/10      Walsall  ...    1.92     1.98     1.93
+551  E2  08/05/10      Wycombe  ...    2.19     1.67     1.61
+
+[552 rows x 71 columns]","    Div      Date        HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  07/08/10        Carlisle  ...    1.59     2.50     2.23
+1    E2  07/08/10        Charlton  ...    1.20     4.50     4.12
+2    E2  07/08/10          Exeter  ...    1.73     2.21     2.05
+3    E2  07/08/10    Notts County  ...    1.87     2.00     1.88
+4    E2  07/08/10       Peterboro  ...    1.32     3.50     3.18
+..   ..       ...             ...  ...     ...      ...      ...
+547  E2  07/05/11       Peterboro  ...    2.01     1.90     1.85
+548  E2  07/05/11        Plymouth  ...    1.71     2.28     2.14
+549  E2  07/05/11  Sheffield Weds  ...    1.99     1.91     1.87
+550  E2  07/05/11     Southampton  ...    1.84     2.07     2.02
+551  E2  07/05/11        Tranmere  ...    2.06     1.85     1.81
+
+[552 rows x 71 columns]","    Div      Date            HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E2  06/08/11           Brentford  ...    1.71     2.27     2.17
+1    E2  06/08/11            Carlisle  ...    1.84     2.07     2.02
+2    E2  06/08/11            Charlton  ...    2.04     1.86     1.81
+3    E2  06/08/11        Huddersfield  ...    1.82     2.11     2.04
+4    E2  06/08/11  Milton Keynes Dons  ...    1.90     2.01     1.95
+..   ..       ...                 ...  ...     ...      ...      ...
+547  E2  05/05/12        Notts County  ...    1.84     2.07     2.01
+548  E2  05/05/12              Oldham  ...    1.98     1.91     1.87
+549  E2  05/05/12      Sheffield Weds  ...    1.81     2.09     2.03
+550  E2  05/05/12           Stevenage  ...    1.90     1.99     1.94
+551  E2  05/05/12            Tranmere  ...    1.81     2.10     2.04
+
+[552 rows x 71 columns]","     Div      Date            HomeTeam  ...  PSCH  PSCD  PSCA
+0     E2  18/08/12                Bury  ...  3.68  3.46  2.18
+1     E2  18/08/12        Crawley Town  ...  1.95  3.67  4.26
+2     E2  18/08/12               Crewe  ...  2.86  3.46  2.62
+3     E2  18/08/12          Hartlepool  ...  3.25  3.25  2.47
+4     E2  18/08/12  Milton Keynes Dons  ...  1.61  4.05  6.54
+..   ...       ...                 ...  ...   ...   ...   ...
+548   E2  27/04/13    Sheffield United  ...  2.21  3.59  3.39
+549   E2  27/04/13          Shrewsbury  ...  2.16  3.48  3.64
+550   E2  27/04/13           Stevenage  ...  4.05  3.55  2.02
+551   E2  27/04/13            Tranmere  ...  5.74  4.15  1.64
+552  NaN       NaN                 NaN  ...   NaN   NaN   NaN
+
+[553 rows x 73 columns]","    Div      Date          HomeTeam       AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E2  02/08/13  Sheffield United   Notts County  ...     1.92  1.96  3.50  4.33
+1    E2  03/08/13      Bristol City       Bradford  ...     1.87  2.20  3.46  3.54
+2    E2  03/08/13          Carlisle  Leyton Orient  ...     1.75  2.97  3.41  2.52
+3    E2  03/08/13      Crawley Town       Coventry  ...     2.11  2.02  3.45  4.11
+4    E2  03/08/13             Crewe      Rotherham  ...     1.82  2.88  3.41  2.59
+..   ..       ...               ...            ...  ...      ...   ...   ...   ...
+547  E2  03/05/14  Sheffield United       Coventry  ...     1.98  1.83  3.75  4.69
+548  E2  03/05/14           Swindon      Rotherham  ...     1.87  3.14  3.63  2.32
+549  E2  03/05/14          Tranmere       Bradford  ...     1.96  1.87  3.82  4.38
+550  E2  03/05/14           Walsall     Colchester  ...     2.01  1.65  4.27  5.47
+551  E2  03/05/14            Wolves       Carlisle  ...     1.96  1.36  5.56  9.23
+
+[552 rows x 68 columns]","    Div      Date            HomeTeam  ...  PSCH  PSCD   PSCA
+0    E2  09/08/14            Barnsley  ...  2.12  3.37   3.89
+1    E2  09/08/14            Bradford  ...  2.35  3.32   3.33
+2    E2  09/08/14          Colchester  ...  2.65  3.35   2.86
+3    E2  09/08/14      Fleetwood Town  ...  1.97  3.56   4.23
+4    E2  09/08/14       Leyton Orient  ...  1.93  3.61   4.33
+..   ..       ...                 ...  ...   ...   ...    ...
+547  E2  03/05/15  Milton Keynes Dons  ...  1.16  8.77  20.81
+548  E2  03/05/15              Oldham  ...  2.68  3.49   2.72
+549  E2  03/05/15           Port Vale  ...  2.17  3.57   3.52
+550  E2  03/05/15    Sheffield United  ...  2.48  3.39   3.06
+551  E2  03/05/15             Swindon  ...  2.73  3.86   2.50
+
+[552 rows x 68 columns]","     Div      Date          HomeTeam    AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0     E2  08/08/15            Burton  Scunthorpe  ...     1.88  2.40  3.38  3.19
+1     E2  08/08/15      Chesterfield    Barnsley  ...     1.94  2.02  3.60  3.96
+2     E2  08/08/15        Colchester   Blackpool  ...     1.93  2.28  3.51  3.31
+3     E2  08/08/15          Coventry       Wigan  ...     2.05  2.92  3.31  2.63
+4     E2  08/08/15             Crewe   Port Vale  ...     1.72  3.05  3.51  2.43
+..   ...       ...               ...         ...  ...      ...   ...   ...   ...
+548   E2  08/05/16         Port Vale     Walsall  ...     2.19  4.19  3.94  1.88
+549   E2  08/05/16  Sheffield United  Scunthorpe  ...     1.96  3.17  3.80  2.24
+550   E2  08/05/16           Swindon  Shrewsbury  ...     1.89  2.21  3.68  3.32
+551   E2  08/05/16             Wigan    Barnsley  ...     1.82  2.32  3.85  2.99
+552  NaN       NaN               NaN         NaN  ...      NaN   NaN   NaN   NaN
+
+[553 rows x 65 columns]","    Div      Date          HomeTeam  ...  PSCH  PSCD   PSCA
+0    E2  06/08/16            Bolton  ...  3.20  3.35   2.41
+1    E2  06/08/16          Bradford  ...  1.78  3.59   5.45
+2    E2  06/08/16              Bury  ...  2.73  3.41   2.73
+3    E2  06/08/16          Millwall  ...  1.55  4.22   7.05
+4    E2  06/08/16       Northampton  ...  2.28  3.37   3.46
+..   ..       ...               ...  ...   ...   ...    ...
+547  E2  30/04/17          Rochdale  ...  1.81  3.85   4.70
+548  E2  30/04/17        Scunthorpe  ...  1.64  4.29   5.52
+549  E2  30/04/17  Sheffield United  ...  1.20  7.90  15.00
+550  E2  30/04/17          Southend  ...  1.78  3.89   4.86
+551  E2  30/04/17           Walsall  ...  3.21  3.66   2.27
+
+[552 rows x 65 columns]","    Div      Date        HomeTeam  ...  PSCH  PSCD  PSCA
+0    E2  05/08/17        Bradford  ...  1.69  3.97  5.50
+1    E2  05/08/17            Bury  ...  2.02  3.55  4.03
+2    E2  05/08/17        Charlton  ...  2.19  3.66  3.39
+3    E2  05/08/17       Doncaster  ...  1.69  3.96  5.45
+4    E2  05/08/17  Fleetwood Town  ...  2.20  3.38  3.66
+..   ..       ...             ...  ...   ...   ...   ...
+547  E2  05/05/18        Rochdale  ...  1.92  3.89  3.98
+548  E2  05/05/18       Rotherham  ...  2.14  3.79  3.34
+549  E2  05/05/18      Scunthorpe  ...  1.92  3.68  4.21
+550  E2  05/05/18      Shrewsbury  ...  1.76  3.84  4.98
+551  E2  05/05/18        Southend  ...  2.23  3.78  3.16
+
+[552 rows x 65 columns]","    Div        Date        HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E2  04/08/2018      Accrington      Gillingham  ...     1.86  2.38  3.36  3.17
+1    E2  04/08/2018        Barnsley          Oxford  ...     1.87  1.83  3.82  4.44
+2    E2  04/08/2018          Burton        Rochdale  ...     1.72  2.88  3.28  2.62
+3    E2  04/08/2018        Coventry      Scunthorpe  ...     1.84  2.59  3.23  2.96
+4    E2  04/08/2018  Fleetwood Town   AFC Wimbledon  ...     1.94  2.02  3.43  4.05
+..   ..         ...             ...             ...  ...      ...   ...   ...   ...
+547  E2  04/05/2019        Plymouth      Scunthorpe  ...     1.96  1.88  4.08  3.92
+548  E2  04/05/2019      Portsmouth      Accrington  ...     1.89  1.44  4.61  7.60
+549  E2  04/05/2019      Shrewsbury         Walsall  ...     1.88  2.38  3.76  2.89
+550  E2  04/05/2019        Southend      Sunderland  ...     1.82  2.97  3.71  2.35
+551  E2  04/05/2019         Wycombe  Fleetwood Town  ...     1.73  2.39  3.34  3.20
+
+[552 rows x 62 columns]","    Div        Date   Time       HomeTeam  ... MaxCAHH  MaxCAHA  AvgCAHH AvgCAHA
+0    E2  03/08/2019  15:00  AFC Wimbledon  ...    1.95     2.04     1.88    1.96
+1    E2  03/08/2019  15:00      Blackpool  ...    2.09     1.87     2.03    1.82
+2    E2  03/08/2019  15:00         Burton  ...    1.83     2.19     1.76    2.09
+3    E2  03/08/2019  15:00       Coventry  ...    1.85     2.26     1.77    2.08
+4    E2  03/08/2019  15:00      Doncaster  ...    1.97     1.96     1.92    1.91
+..   ..         ...    ...            ...  ...     ...      ...      ...     ...
+395  E2  07/03/2020  15:00     Sunderland  ...    1.87     2.11     1.79    2.04
+396  E2  10/03/2020  19:45      Blackpool  ...    2.04     2.06     1.93    1.89
+397  E2  10/03/2020  19:45    Bristol Rvs  ...    1.95     2.00     1.88    1.94
+398  E2  10/03/2020  19:45         Burton  ...    2.07     1.98     1.98    1.84
+399  E2  10/03/2020  19:45     Portsmouth  ...    1.83     2.16     1.76    2.09
+
+[400 rows x 106 columns]","    Div      Date      HomeTeam       AwayTeam  ...   SBA   WHH   WHD   WHA
+0    E3  12/08/00        Barnet     Shrewsbury  ...  4.33  1.66  3.40  4.50
+1    E3  12/08/00     Blackpool           Hull  ...  4.33  1.72  3.25  4.33
+2    E3  12/08/00      Carlisle        Halifax  ...  2.60  2.20  3.40  2.75
+3    E3  12/08/00    Cheltenham      Mansfield  ...  4.50  1.66  3.40  4.50
+4    E3  12/08/00  Chesterfield           York  ...  5.00  1.66  3.40  4.50
+..   ..       ...           ...            ...  ...   ...   ...   ...   ...
+547  E3  05/05/01     Mansfield     Scunthorpe  ...  2.63  2.25  3.25  2.75
+548  E3  05/05/01      Plymouth       Rochdale  ...  1.91  3.10  3.75  1.90
+549  E3  05/05/01    Shrewsbury       Brighton  ...  2.10  2.75  3.40  2.20
+550  E3  05/05/01          York  Kidderminster  ...  3.10  2.10  3.25  3.00
+551  E3  08/05/01      Southend      Mansfield  ...  3.40  2.00  3.25  3.25
+
+[552 rows x 45 columns]","    Div      Date     HomeTeam       AwayTeam  ...    SYA   WHH   WHD   WHA
+0    E3  11/08/01  Bristol Rvs        Torquay  ...  5.500  1.50  3.75  5.50
+1    E3  11/08/01     Carlisle          Luton  ...  2.250  2.87  3.40  2.10
+2    E3  11/08/01   Cheltenham  Leyton Orient  ...  2.750  2.20  3.25  2.80
+3    E3  11/08/01       Exeter           Hull  ...  2.100  3.25  3.25  2.00
+4    E3  11/08/01   Hartlepool      Mansfield  ...  3.750  1.66  3.40  4.50
+..   ..       ...          ...            ...  ...    ...   ...   ...   ...
+547  E3  20/04/02     Plymouth     Cheltenham  ...  2.375  2.60  3.00  2.40
+548  E3  20/04/02     Rochdale    Bristol Rvs  ...  7.000  1.30  4.50  8.00
+549  E3  20/04/02   Scunthorpe           York  ...  6.000  1.50  3.75  5.50
+550  E3  20/04/02   Shrewsbury          Luton  ...  3.200  2.10  3.40  2.87
+551  E3  20/04/02      Swansea        Torquay  ...  3.000  2.10  3.40  2.87
+
+[552 rows x 48 columns]","    Div      Date       HomeTeam     AwayTeam  ...    SBA   WHH   WHD   WHA
+0    E3  10/08/02         Boston  Bournemouth  ...  2.625  2.37  3.10  2.62
+1    E3  10/08/02      Cambridge   Darlington  ...  3.500  2.00  3.20  3.20
+2    E3  10/08/02       Carlisle   Hartlepool  ...  2.400  2.50  3.10  2.50
+3    E3  10/08/02           Hull     Southend  ...  5.500  1.53  3.40  5.50
+4    E3  10/08/02  Kidderminster      Lincoln  ...  4.500  1.61  3.25  5.00
+..   ..       ...            ...          ...  ...    ...   ...   ...   ...
+330  E3  28/01/03  Leyton Orient    Cambridge  ...  2.800  2.20  3.25  2.75
+331  E3  01/02/03    Bournemouth       Boston  ...  5.000  1.61  3.30  5.00
+332  E3  01/02/03    Bristol Rvs     Carlisle  ...  3.250  2.00  3.30  3.10
+333  E3  01/02/03         Exeter   Shrewsbury  ...  3.250  2.00  3.20  3.20
+334  E3  01/02/03     Hartlepool      Torquay  ...  5.000  1.61  3.30  5.00
+
+[335 rows x 44 columns]","    Div      Date       HomeTeam     AwayTeam  ...  GBAH  B365AHH B365AHA  B365AH
+0    E3  09/08/03       Carlisle         York  ...   NaN      NaN     NaN     NaN
+1    E3  09/08/03   Huddersfield    Cambridge  ...   NaN      NaN     NaN     NaN
+2    E3  09/08/03           Hull   Darlington  ...   NaN      NaN     NaN     NaN
+3    E3  09/08/03  Kidderminster    Mansfield  ...   NaN      NaN     NaN     NaN
+4    E3  09/08/03  Leyton Orient    Doncaster  ...   NaN      NaN     NaN     NaN
+..   ..       ...            ...          ...  ...   ...      ...     ...     ...
+467  E3  08/05/04      Mansfield  Northampton  ...  -0.5      NaN     NaN     NaN
+468  E3  08/05/04         Oxford     Rochdale  ...   NaN    1.900   1.950   -0.50
+469  E3  08/05/04     Scunthorpe   Darlington  ...   NaN    1.825   2.025   -0.25
+470  E3  08/05/04       Southend      Torquay  ...   NaN      NaN     NaN     NaN
+471  E3  08/05/04        Swansea         York  ...   NaN      NaN     NaN     NaN
+
+[472 rows x 52 columns]","    Div      Date       HomeTeam       AwayTeam  ...  LBAH  B365AHH B365AHA  B365AH
+0    E3  07/08/04         Boston         Oxford  ... -0.25    2.075   1.775   -0.25
+1    E3  07/08/04           Bury         Yeovil  ...  0.00    1.950   1.900    0.00
+2    E3  07/08/04     Darlington        Grimsby  ...  0.00    1.975   1.875    0.00
+3    E3  07/08/04  Leyton Orient   Macclesfield  ... -0.25    1.800   2.050   -0.25
+4    E3  07/08/04      Mansfield    Bristol Rvs  ... -0.25    1.850   2.000   -0.25
+..   ..       ...            ...            ...  ...   ...      ...     ...     ...
+435  E3  07/05/05   Macclesfield    Rushden & D  ...   NaN    1.975   1.875   -1.25
+436  E3  07/05/05    Northampton  Kidderminster  ...   NaN    1.875   1.975   -1.50
+437  E3  07/05/05         Oxford        Chester  ...   NaN    1.875   1.975   -0.50
+438  E3  07/05/05     Shrewsbury     Scunthorpe  ...   NaN    1.775   2.075    0.75
+439  E3  07/05/05         Yeovil        Lincoln  ...   NaN    2.100   1.750   -1.00
+
+[440 rows x 55 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E3  06/08/05         Barnet  ...    1.94     1.96     1.92
+1    E3  06/08/05     Cheltenham  ...    1.79     2.15     2.09
+2    E3  06/08/05        Grimsby  ...    2.02     1.86     1.85
+3    E3  06/08/05  Leyton Orient  ...    1.80     2.10     2.06
+4    E3  06/08/05        Lincoln  ...    1.73     2.27     2.19
+..   ..       ...            ...  ...     ...      ...      ...
+547  E3  06/05/06         Oxford  ...    1.85     2.03     2.00
+548  E3  06/05/06      Peterboro  ...    2.04     1.83     1.81
+549  E3  06/05/06    Rushden & D  ...    1.89     1.95     1.95
+550  E3  06/05/06      Stockport  ...    1.96     1.90     1.88
+551  E3  06/05/06        Torquay  ...    1.78     2.10     2.07
+
+[552 rows x 68 columns]","    Div      Date    HomeTeam      AwayTeam  ...  BbMxAHH  BbAvAHH BbMxAHA  BbAvAHA
+0    E3  05/08/06      Barnet       Torquay  ...     2.00     1.99    1.87     1.86
+1    E3  05/08/06     Chester    Accrington  ...     1.78     1.76    2.13     2.10
+2    E3  05/08/06  Darlington  Macclesfield  ...     1.75     1.74    2.14     2.07
+3    E3  05/08/06     Grimsby        Boston  ...     2.08     1.99    1.83     1.80
+4    E3  05/08/06  Hartlepool       Swindon  ...     1.90     1.88    1.98     1.97
+..   ..       ...         ...           ...  ...      ...      ...     ...      ...
+547  E3  05/05/07   Peterboro      Rochdale  ...     1.55     1.52    2.30     2.27
+548  E3  05/05/07  Shrewsbury       Grimsby  ...     1.20     1.16    4.50     4.20
+549  E3  05/05/07     Swindon       Walsall  ...     1.65     1.62    2.10     2.07
+550  E3  05/05/07     Torquay      Hereford  ...     1.80     1.72    1.98     1.94
+551  E3  05/05/07     Wrexham        Boston  ...     1.40     1.38    2.70     2.68
+
+[552 rows x 68 columns]","    Div      Date    HomeTeam      AwayTeam  ...  BbMxAHH  BbAvAHH BbMxAHA  BbAvAHA
+0    E3  11/08/07    Bradford  Macclesfield  ...     2.11     2.10    1.82     1.80
+1    E3  11/08/07   Brentford     Mansfield  ...     2.07     1.97    1.89     1.85
+2    E3  11/08/07     Chester  Chesterfield  ...     1.95     1.86    2.00     1.91
+3    E3  11/08/07  Darlington       Wrexham  ...     2.08     2.01    1.85     1.81
+4    E3  11/08/07     Grimsby  Notts County  ...     1.67     1.63    2.20     2.12
+..   ..       ...         ...           ...  ...      ...      ...     ...      ...
+547  E3  03/05/08   Peterboro    Darlington  ...     2.03     1.93    2.07     1.94
+548  E3  03/05/08    Rochdale    Shrewsbury  ...     2.10     2.05    1.90     1.82
+549  E3  03/05/08   Rotherham        Barnet  ...     1.94     1.87    2.02     1.99
+550  E3  03/05/08   Stockport     Brentford  ...     1.92     1.88    2.04     1.95
+551  E3  03/05/08     Wycombe      Bradford  ...     2.05     2.01    1.91     1.82
+
+[552 rows x 71 columns]","    Div      Date     HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E3  09/08/08   Accrington  ...    1.82     2.09     2.00
+1    E3  09/08/08       Barnet  ...    1.81     2.06     2.01
+2    E3  09/08/08  Bournemouth  ...    2.05     1.87     1.81
+3    E3  09/08/08     Bradford  ...    1.89     2.03     1.95
+4    E3  09/08/08         Bury  ...    2.11     1.82     1.77
+..   ..       ...          ...  ...     ...      ...      ...
+547  E3  02/05/09      Lincoln  ...    1.90     2.00     1.97
+548  E3  02/05/09    Morecambe  ...    1.99     1.93     1.88
+549  E3  02/05/09     Rochdale  ...    1.84     2.08     2.03
+550  E3  02/05/09    Rotherham  ...    1.81     2.14     2.07
+551  E3  02/05/09      Wycombe  ...    1.90     2.00     1.97
+
+[552 rows x 71 columns]","    Div      Date     HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E3  08/08/09    Aldershot  ...    1.47     2.59     2.46
+1    E3  08/08/09         Bury  ...    1.51     2.50     2.36
+2    E3  08/08/09   Cheltenham  ...    2.09     1.84     1.79
+3    E3  08/08/09        Crewe  ...    1.39     3.00     2.69
+4    E3  08/08/09      Lincoln  ...    2.15     1.80     1.75
+..   ..       ...          ...  ...     ...      ...      ...
+547  E3  08/05/10      Lincoln  ...    1.52     2.50     2.38
+548  E3  08/05/10    Morecambe  ...    1.34     3.20     3.00
+549  E3  08/05/10  Northampton  ...    1.65     2.21     2.12
+550  E3  08/05/10    Port Vale  ...    1.24     3.75     3.64
+551  E3  08/05/10      Torquay  ...    1.76     2.19     2.13
+
+[552 rows x 71 columns]","    Div      Date      HomeTeam    AwayTeam  ...  BbMxAHH  BbAvAHH BbMxAHA  BbAvAHA
+0    E3  07/08/10    Accrington   Aldershot  ...     1.96     1.82    2.00     1.91
+1    E3  07/08/10        Burton      Oxford  ...     1.70     1.67    2.20     2.07
+2    E3  07/08/10          Bury   Port Vale  ...     1.67     1.62    2.30     2.15
+3    E3  07/08/10  Chesterfield      Barnet  ...     1.29     1.24    4.20     3.72
+4    E3  07/08/10         Crewe    Hereford  ...     1.40     1.38    3.00     2.80
+..   ..       ...           ...         ...  ...      ...      ...     ...      ...
+547  E3  07/05/11     Rotherham     Torquay  ...     1.94     1.88    2.04     1.97
+548  E3  07/05/11    Shrewsbury      Oxford  ...     2.00     1.94    1.97     1.92
+549  E3  07/05/11     Stevenage        Bury  ...     1.92     1.86    2.06     1.99
+550  E3  07/05/11     Stockport  Cheltenham  ...     1.86     1.78    2.16     2.04
+551  E3  07/05/11       Wycombe    Southend  ...     1.93     1.88    2.02     1.97
+
+[552 rows x 71 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    E3  06/08/11  AFC Wimbledon  ...    1.81     2.08     2.01
+1    E3  06/08/11       Bradford  ...    1.93     1.96     1.92
+2    E3  06/08/11     Gillingham  ...    1.96     1.91     1.88
+3    E3  06/08/11   Macclesfield  ...    1.85     2.06     1.98
+4    E3  06/08/11      Morecambe  ...    1.74     2.18     2.13
+..   ..       ...            ...  ...     ...      ...      ...
+547  E3  05/05/12       Hereford  ...    1.68     2.28     2.21
+548  E3  05/05/12       Plymouth  ...    1.67     2.28     2.19
+549  E3  05/05/12      Port Vale  ...    1.86     2.03     1.97
+550  E3  05/05/12      Rotherham  ...    1.75     2.18     2.10
+551  E3  05/05/12       Southend  ...    1.78     2.08     1.99
+
+[552 rows x 71 columns]","     Div      Date        HomeTeam      AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0     E3  18/08/12   AFC Wimbledon  Chesterfield  ...     2.03  2.64  3.41  2.81
+1     E3  18/08/12     Bristol Rvs        Oxford  ...     1.80  2.54  3.39  2.95
+2     E3  18/08/12      Cheltenham   Dag and Red  ...     1.76  2.00  3.64  4.00
+3     E3  18/08/12          Exeter     Morecambe  ...     1.67  2.14  3.44  3.74
+4     E3  18/08/12  Fleetwood Town       Torquay  ...     2.14   NaN   NaN   NaN
+..   ...       ...             ...           ...  ...      ...   ...   ...   ...
+549   E3  27/04/13        Southend     Morecambe  ...     1.86  1.88  3.84  4.30
+550   E3  27/04/13         Torquay   Bristol Rvs  ...     1.81  2.34  3.48  3.22
+551   E3  27/04/13         Wycombe     Port Vale  ...     2.01  3.20  3.57  2.31
+552  NaN       NaN             NaN           NaN  ...      NaN   NaN   NaN   NaN
+553  NaN       NaN             NaN           NaN  ...      NaN   NaN   NaN   NaN
+
+[554 rows x 73 columns]","    Div      Date        HomeTeam      AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E3  03/08/13            Bury  Chesterfield  ...     2.16  2.73  3.42  2.73
+1    E3  03/08/13      Cheltenham        Burton  ...     2.00  2.17  3.52  3.56
+2    E3  03/08/13          Exeter   Bristol Rvs  ...     2.09  2.25  3.41  3.45
+3    E3  03/08/13  Fleetwood Town   Dag and Red  ...     2.06  1.81  3.73  4.87
+4    E3  03/08/13  Newport County    Accrington  ...     2.04  1.92  3.55  4.50
+..   ..       ...             ...           ...  ...      ...   ...   ...   ...
+547  E3  03/05/14     Northampton        Oxford  ...     1.99  2.05  3.33  4.20
+548  E3  03/05/14      Portsmouth      Plymouth  ...     1.77  2.04  3.79  3.69
+549  E3  03/05/14      Scunthorpe          York  ...     1.85  2.00  3.53  4.14
+550  E3  03/05/14        Southend        Burton  ...     2.05  1.90  3.61  4.51
+551  E3  03/05/14         Torquay       Wycombe  ...     2.05  3.01  3.42  2.51
+
+[552 rows x 68 columns]","    Div      Date        HomeTeam    AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E3  09/08/14      Accrington    Southend  ...     1.75  3.44  3.27  2.34
+1    E3  09/08/14   AFC Wimbledon  Shrewsbury  ...     1.97  2.75  3.28  2.80
+2    E3  09/08/14            Bury  Cheltenham  ...     1.93  1.95  3.50  4.40
+3    E3  09/08/14       Cambridge    Plymouth  ...     2.02  2.25  3.33  3.58
+4    E3  09/08/14        Carlisle       Luton  ...     1.85  2.67  3.34  2.85
+..   ..       ...             ...         ...  ...      ...   ...   ...   ...
+547  E3  02/05/15  Newport County      Oxford  ...     1.71  2.70  3.35  2.80
+548  E3  02/05/15     Northampton     Wycombe  ...     2.17  2.88  3.44  2.58
+549  E3  02/05/15      Portsmouth        York  ...     1.77  2.45  3.33  3.14
+550  E3  02/05/15      Shrewsbury    Plymouth  ...     1.96  1.49  4.39  7.93
+551  E3  02/05/15        Tranmere        Bury  ...     1.98  6.82  4.34  1.54
+
+[552 rows x 68 columns]","     Div      Date       HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0     E3  08/08/15     Accrington           Luton  ...     2.06  3.71  3.37  2.18
+1     E3  08/08/15  AFC Wimbledon        Plymouth  ...     2.01  2.58  3.28  3.01
+2     E3  08/08/15    Bristol Rvs     Northampton  ...     1.86  2.39  3.36  3.23
+3     E3  08/08/15      Cambridge  Newport County  ...     1.86  1.76  3.79  5.15
+4     E3  08/08/15         Exeter          Yeovil  ...     2.11  2.49  3.37  3.07
+..   ...       ...            ...             ...  ...      ...   ...   ...   ...
+548   E3  07/05/16         Oxford         Wycombe  ...     2.08  1.42  5.07  7.97
+549   E3  07/05/16       Plymouth      Hartlepool  ...     1.94  1.64  4.27  5.50
+550   E3  07/05/16     Portsmouth     Northampton  ...     1.91  2.40  3.56  3.06
+551   E3  07/05/16         Yeovil   Leyton Orient  ...     2.04  3.06  3.45  2.45
+552  NaN       NaN            NaN             NaN  ...      NaN   NaN   NaN   NaN
+
+[553 rows x 65 columns]","    Div      Date        HomeTeam       AwayTeam  ...  BbAvAHA  PSCH  PSCD   PSCA
+0    E3  06/08/16      Accrington      Doncaster  ...     1.94  2.57  3.19   3.11
+1    E3  06/08/16       Blackpool         Exeter  ...     1.67  2.47  3.44   3.03
+2    E3  06/08/16       Cambridge         Barnet  ...     2.03  1.77  3.88   4.93
+3    E3  06/08/16      Cheltenham  Leyton Orient  ...     1.89  2.83  3.33   2.69
+4    E3  06/08/16    Crawley Town        Wycombe  ...     2.10  3.69  3.30   2.22
+..   ..       ...             ...            ...  ...      ...   ...   ...    ...
+547  E3  06/05/17           Luton      Morecambe  ...     1.84  1.51  5.07   6.06
+548  E3  06/05/17  Newport County   Notts County  ...     1.89  2.07  3.60   3.78
+549  E3  06/05/17      Portsmouth     Cheltenham  ...     2.01  1.36  5.21  10.22
+550  E3  06/05/17       Stevenage     Accrington  ...     2.04  1.99  4.07   3.61
+551  E3  06/05/17         Wycombe      Cambridge  ...     1.75  2.43  3.58   2.99
+
+[552 rows x 65 columns]","    Div      Date      HomeTeam      AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E3  05/08/17    Accrington    Colchester  ...     2.02  1.97  3.65  4.10
+1    E3  05/08/17      Carlisle       Swindon  ...     1.77  2.06  3.82  3.60
+2    E3  05/08/17  Chesterfield       Grimsby  ...     1.73  2.81  3.17  2.82
+3    E3  05/08/17      Coventry  Notts County  ...     1.97  2.27  3.43  3.42
+4    E3  05/08/17  Crawley Town     Port Vale  ...     2.04  2.90  3.43  2.57
+..   ..       ...           ...           ...  ...      ...   ...   ...   ...
+547  E3  05/05/18       Lincoln        Yeovil  ...     1.85  1.44  5.17  6.99
+548  E3  05/05/18     Mansfield  Crawley Town  ...     1.97  1.62  4.53  5.21
+549  E3  05/05/18  Notts County         Luton  ...     1.79  4.06  3.89  1.90
+550  E3  05/05/18       Swindon    Accrington  ...     1.93  2.96  3.58  2.42
+551  E3  05/05/18       Wycombe     Stevenage  ...     1.75  1.68  4.27  4.98
+
+[552 rows x 65 columns]","    Div        Date    HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    E3  04/08/2018        Bury          Yeovil  ...     1.99  1.82  3.78  4.59
+1    E3  04/08/2018  Cheltenham    Crawley Town  ...     2.16  2.22  3.32  3.55
+2    E3  04/08/2018       Crewe       Morecambe  ...     1.89  2.02  3.47  4.02
+3    E3  04/08/2018      Exeter        Carlisle  ...     1.67  2.31  3.37  3.31
+4    E3  04/08/2018     Grimsby    Forest Green  ...     1.83  2.42  3.33  3.13
+..   ..         ...         ...             ...  ...      ...   ...   ...   ...
+547  E3  04/05/2019   Morecambe  Newport County  ...     2.01  3.94  3.78  1.94
+548  E3  04/05/2019      Oldham     Northampton  ...     1.96  2.56  3.58  2.77
+549  E3  04/05/2019   Stevenage      Cheltenham  ...     1.79  1.83  3.83  4.39
+550  E3  04/05/2019     Swindon    Notts County  ...     1.78  2.41  3.74  2.86
+551  E3  04/05/2019      Yeovil        Carlisle  ...     1.87  4.07  3.53  1.98
+
+[552 rows x 62 columns]","    Div        Date   Time    HomeTeam  ... MaxCAHH  MaxCAHA  AvgCAHH AvgCAHA
+0    E3  03/08/2019  12:30     Salford  ...    2.01     1.97     1.92    1.91
+1    E3  03/08/2019  15:00    Bradford  ...    2.00     1.95     1.94    1.88
+2    E3  03/08/2019  15:00    Carlisle  ...    2.17     1.80     2.09    1.76
+3    E3  03/08/2019  15:00  Colchester  ...    1.88     2.10     1.82    2.03
+4    E3  03/08/2019  15:00       Crewe  ...    1.90     2.20     1.78    2.08
+..   ..         ...    ...         ...  ...     ...      ...      ...     ...
+435  E3  07/03/2020  15:00    Plymouth  ...    2.15     1.90     2.02    1.82
+436  E3  07/03/2020  15:00     Salford  ...    1.89     2.10     1.82    2.00
+437  E3  07/03/2020  15:00     Swindon  ...    1.95     2.02     1.88    1.94
+438  E3  07/03/2020  15:00     Walsall  ...    1.85     2.12     1.78    2.06
+439  E3  10/03/2020  19:45    Carlisle  ...    2.03     1.93     1.96    1.87
+
+[440 rows x 106 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  13/08/05     Accrington  ...    1.66     2.25     2.25
+1    EC  13/08/05      Aldershot  ...    1.79     2.06     2.05
+2    EC  13/08/05         Burton  ...    1.95     1.86     1.86
+3    EC  13/08/05    Dag and Red  ...    1.93     1.91     1.91
+4    EC  13/08/05   Forest Green  ...    1.98     1.86     1.85
+..   ..       ...            ...  ...     ...      ...      ...
+457  EC  29/04/06  Kidderminster  ...    1.89     2.00     2.00
+458  EC  29/04/06      Southport  ...    1.91     1.83     1.82
+459  EC  29/04/06       Tamworth  ...    1.84     1.95     1.88
+460  EC  29/04/06         Woking  ...    1.79     2.01     1.94
+461  EC  29/04/06           York  ...    2.01     1.88     1.86
+
+[462 rows x 68 columns]","    Div      Date          HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  12/08/06         Aldershot  ...    1.93     1.99     1.95
+1    EC  12/08/06        Altrincham  ...    1.92     2.00     1.95
+2    EC  12/08/06         Cambridge  ...    2.07     1.81     1.74
+3    EC  12/08/06      Crawley Town  ...     NaN      NaN      NaN
+4    EC  12/08/06      Forest Green  ...    2.13     1.79     1.77
+..   ..       ...               ...  ...     ...      ...      ...
+547  EC  28/04/07         Morecambe  ...     NaN      NaN      NaN
+548  EC  28/04/07        St. Albans  ...     NaN      NaN      NaN
+549  EC  28/04/07  Stafford Rangers  ...     NaN      NaN      NaN
+550  EC  28/04/07            Woking  ...     NaN      NaN      NaN
+551  EC  28/04/07              York  ...     NaN      NaN      NaN
+
+[552 rows x 68 columns]","    Div      Date          HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  11/08/07        Altrincham  ...    1.80     2.12     2.09
+1    EC  11/08/07      Crawley Town  ...    2.38     1.57     1.51
+2    EC  11/08/07         Droylsden  ...    2.00     1.93     1.89
+3    EC  11/08/07         Ebbsfleet  ...    1.96     1.94     1.92
+4    EC  11/08/07           Farsley  ...    2.00     1.92     1.88
+..   ..       ...               ...  ...     ...      ...      ...
+547  EC  26/04/08         Salisbury  ...    1.60     2.30     2.21
+548  EC  26/04/08  Stafford Rangers  ...    1.67     2.15     2.09
+549  EC  26/04/08           Torquay  ...    1.29     3.40     3.31
+550  EC  26/04/08          Weymouth  ...    1.97     1.80     1.75
+551  EC  26/04/08            Woking  ...    1.95     1.80     1.76
+
+[552 rows x 71 columns]","    Div      Date            HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  08/08/08              Barrow  ...    2.09     1.83     1.78
+1    EC  09/08/08        Crawley Town  ...    2.02     1.88     1.84
+2    EC  09/08/08  Eastbourne Borough  ...    2.07     1.83     1.79
+3    EC  09/08/08           Ebbsfleet  ...    1.89     2.05     1.97
+4    EC  09/08/08              Histon  ...    1.81     2.08     2.05
+..   ..       ...                 ...  ...     ...      ...      ...
+547  EC  26/04/09           Mansfield  ...    2.03     1.91     1.84
+548  EC  26/04/09              Oxford  ...    1.06     8.00     6.88
+549  EC  26/04/09         Rushden & D  ...    1.93     1.98     1.93
+550  EC  26/04/09             Torquay  ...    1.75     2.20     2.13
+551  EC  26/04/09             Wrexham  ...     NaN      NaN      NaN
+
+[552 rows x 71 columns]","    Div      Date       HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  08/08/09  AFC Wimbledon  ...    2.02     1.83     1.78
+1    EC  08/08/09     Altrincham  ...    1.88     2.04     1.99
+2    EC  08/08/09      Cambridge  ...    1.93     1.98     1.94
+3    EC  08/08/09   Forest Green  ...    1.98     1.92     1.83
+4    EC  08/08/09      Gateshead  ...    2.02     1.84     1.80
+..   ..       ...            ...  ...     ...      ...      ...
+501  EC  24/04/10      Mansfield  ...    1.47     2.55     2.53
+502  EC  24/04/10    Rushden & D  ...    1.79     1.92     1.92
+503  EC  24/04/10      Salisbury  ...    1.67     2.10     2.09
+504  EC  24/04/10      Stevenage  ...    1.35     3.20     3.08
+505  EC  24/04/10       Tamworth  ...    1.67     2.10     2.10
+
+[506 rows x 71 columns]","    Div      Date         HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  14/08/10     Crawley Town  ...    1.49     2.62     2.45
+1    EC  14/08/10       Darlington  ...    1.37     3.00     2.83
+2    EC  14/08/10        Gateshead  ...    1.85     2.00     1.90
+3    EC  14/08/10  Hayes & Yeading  ...    1.63     2.25     2.13
+4    EC  14/08/10           Histon  ...    2.56     1.62     1.46
+..   ..       ...              ...  ...     ...      ...      ...
+547  EC  30/04/11        Gateshead  ...    1.71     2.08     2.04
+548  EC  30/04/11   Kettering Town  ...    1.93     1.81     1.79
+549  EC  30/04/11    Kidderminster  ...    1.08     7.05     6.93
+550  EC  30/04/11            Luton  ...    1.50     2.50     2.48
+551  EC  30/04/11         Tamworth  ...    1.64     2.20     2.16
+
+[552 rows x 71 columns]","    Div      Date         HomeTeam  ... BbAvAHH  BbMxAHA  BbAvAHA
+0    EC  12/08/11     Forest Green  ...    1.74     2.18     2.12
+1    EC  13/08/11           Barrow  ...    2.11     1.82     1.76
+2    EC  13/08/11       Darlington  ...    1.98     1.91     1.87
+3    EC  13/08/11        Ebbsfleet  ...    2.00     1.90     1.86
+4    EC  13/08/11          Grimsby  ...    1.88     2.00     1.95
+..   ..       ...              ...  ...     ...      ...      ...
+547  EC  28/04/12  Hayes & Yeading  ...     NaN      NaN      NaN
+548  EC  28/04/12    Kidderminster  ...    1.87     2.02     1.97
+549  EC  28/04/12         Tamworth  ...    2.10     1.80     1.76
+550  EC  28/04/12          Wrexham  ...    1.81     2.08     2.03
+551  EC  28/04/12             York  ...    1.91     2.00     1.93
+
+[552 rows x 71 columns]","    Div      Date        HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    EC  10/08/12        Hereford    Macclesfield  ...     1.81  2.42  3.45  3.10
+1    EC  11/08/12          Barrow  Telford United  ...     1.89  2.04  3.70  3.76
+2    EC  11/08/12  Braintree Town     Hyde United  ...     1.74  2.42  3.49  3.06
+3    EC  11/08/12        Dartford        Tamworth  ...     1.83  2.43  3.40  3.12
+4    EC  11/08/12    Forest Green       Cambridge  ...     2.02  2.27  3.43  3.38
+..   ..       ...             ...             ...  ...      ...   ...   ...   ...
+547  EC  20/04/13    Macclesfield       Cambridge  ...     1.85  2.15  3.51  3.67
+548  EC  20/04/13       Mansfield         Wrexham  ...     2.20  1.43  4.61  9.00
+549  EC  20/04/13       Southport           Luton  ...     1.77  2.84  3.59  2.54
+550  EC  20/04/13        Tamworth          Woking  ...     1.77  2.31  3.48  3.27
+551  EC  20/04/13  Telford United        Hereford  ...     3.80  3.84  3.81  1.99
+
+[552 rows x 73 columns]","     Div      Date        HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0     EC  10/08/13          Barnet         Chester  ...     2.04  2.78  3.30  2.76
+1     EC  10/08/13        Dartford   Alfreton Town  ...     1.80  2.54  3.42  2.94
+2     EC  10/08/13    Forest Green     Hyde United  ...     2.15  1.54  4.30  6.93
+3     EC  10/08/13         Grimsby       Aldershot  ...     1.50  1.69  3.88  5.73
+4     EC  10/08/13        Hereford  Braintree Town  ...     1.85  2.14  3.60  3.56
+..   ...       ...             ...             ...  ...      ...   ...   ...   ...
+550   EC  26/04/14        Tamworth          Woking  ...     1.92  3.14  3.69  2.30
+551   EC  26/04/14  Welling United       Southport  ...     1.97  1.99  3.73  3.92
+552  NaN       NaN             NaN             NaN  ...      NaN   NaN   NaN   NaN
+553  NaN       NaN             NaN             NaN  ...      NaN   NaN   NaN   NaN
+554  NaN       NaN             NaN             NaN  ...      NaN   NaN   NaN   NaN
+
+[555 rows x 68 columns]","     Div      Date       HomeTeam    AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0     EC  09/08/14      Aldershot  Altrincham  ...     1.86  1.84  3.72  4.69
+1     EC  09/08/14  Alfreton Town      Woking  ...     1.74  2.95  3.63  2.44
+2     EC  09/08/14    Bristol Rvs     Grimsby  ...     1.94  2.20  3.45  3.57
+3     EC  09/08/14        Chester      Barnet  ...     1.82  3.24  3.18  2.49
+4     EC  09/08/14       Dartford     Wrexham  ...     1.81  3.67  3.50  2.14
+..   ...       ...            ...         ...  ...      ...   ...   ...   ...
+554  NaN       NaN            NaN         NaN  ...      NaN   NaN   NaN   NaN
+555  NaN       NaN            NaN         NaN  ...      NaN   NaN   NaN   NaN
+556  NaN       NaN            NaN         NaN  ...      NaN   NaN   NaN   NaN
+557  NaN       NaN            NaN         NaN  ...      NaN   NaN   NaN   NaN
+558  NaN       NaN            NaN         NaN  ...      NaN   NaN   NaN   NaN
+
+[559 rows x 68 columns]","    Div      Date        HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    EC  08/08/15       Aldershot       Gateshead  ...     1.78  2.68  3.39  2.80
+1    EC  08/08/15      Altrincham    Forest Green  ...     1.96  3.36  3.59  2.23
+2    EC  08/08/15          Barrow  Dover Athletic  ...     1.82  2.29  3.49  3.31
+3    EC  08/08/15    Boreham Wood         Halifax  ...     2.04  2.77  3.30  2.77
+4    EC  08/08/15         Bromley         Wrexham  ...     2.07  3.16  3.48  2.37
+..   ..       ...             ...             ...  ...      ...   ...   ...   ...
+547  EC  30/04/16         Halifax    Macclesfield  ...     1.84  1.94  3.69  4.20
+548  EC  30/04/16       Southport   Kidderminster  ...     1.84  2.04  3.80  3.69
+549  EC  30/04/16        Tranmere         Grimsby  ...     1.76  1.86  4.04  4.17
+550  EC  30/04/16  Welling United    Boreham Wood  ...     1.81  5.76  4.29  1.62
+551  EC  30/04/16          Woking       Eastleigh  ...     1.95  3.60  3.83  2.06
+
+[552 rows x 65 columns]","    Div      Date      HomeTeam       AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    EC  06/08/16        Barrow      Aldershot  ...     1.88  1.97  3.60  4.15
+1    EC  06/08/16  Boreham Wood   Forest Green  ...     2.08  3.56  3.31  2.27
+2    EC  06/08/16       Bromley       Tranmere  ...     1.87  3.91  3.70  2.00
+3    EC  06/08/16   Dag and Red      Southport  ...     1.89  2.13  3.59  3.62
+4    EC  06/08/16     Eastleigh       Guiseley  ...     1.97  1.49  4.73  6.96
+..   ..       ...           ...            ...  ...      ...   ...   ...   ...
+547  EC  29/04/17  Macclesfield         Sutton  ...     1.83  2.19  3.83  3.25
+548  EC  29/04/17     Maidstone       Tranmere  ...     2.36  1.88  3.88  4.26
+549  EC  29/04/17     Southport        Lincoln  ...     1.88   NaN   NaN   NaN
+550  EC  29/04/17       Torquay  North Ferriby  ...     1.83   NaN   NaN   NaN
+551  EC  29/04/17          York   Forest Green  ...     1.84  1.90  3.92  4.10
+
+[552 rows x 57 columns]","    Div      Date     HomeTeam        AwayTeam  ...  BbAvAHA  PSCH  PSCD  PSCA
+0    EC  05/08/17      Bromley       Eastleigh  ...     2.09  2.84  3.40  2.64
+1    EC  05/08/17  Dag and Red          Barrow  ...     1.82  1.85  3.77  4.53
+2    EC  05/08/17        Fylde    Boreham Wood  ...     1.99  2.34  3.53  3.19
+3    EC  05/08/17     Guiseley       Ebbsfleet  ...     2.10  3.98  3.65  2.00
+4    EC  05/08/17      Halifax       Aldershot  ...     2.03  2.42  3.42  3.13
+..   ..       ...          ...             ...  ...      ...   ...   ...   ...
+547  EC  28/04/18       Sutton       Aldershot  ...     1.96  2.46  3.37  3.07
+548  EC  28/04/18      Torquay       Ebbsfleet  ...     1.85  6.45  4.07  1.59
+549  EC  28/04/18     Tranmere      Hartlepool  ...     1.86  1.52  4.48  6.65
+550  EC  28/04/18       Woking  Dover Athletic  ...     2.05  2.74  3.67  2.54
+551  EC  28/04/18      Wrexham           Fylde  ...     2.01  2.67  3.54  2.69
+
+[552 rows x 57 columns]","    Div        Date                HomeTeam  ...  PSCH  PSCD   PSCA
+0    EC  04/08/2018               Aldershot  ...  2.60  3.42   2.82
+1    EC  04/08/2018                  Barrow  ...  2.85  3.31   2.63
+2    EC  04/08/2018            Boreham Wood  ...  1.95  3.64   4.08
+3    EC  04/08/2018          Braintree Town  ...  2.32  3.43   3.22
+4    EC  04/08/2018          Dover Athletic  ...  2.30  3.36   3.32
+..   ..         ...                     ...  ...   ...   ...    ...
+547  EC  27/04/2019  Havant & Waterlooville  ...  3.11  3.80   2.21
+548  EC  27/04/2019           Leyton Orient  ...  1.22  6.40  13.28
+549  EC  27/04/2019              Maidenhead  ...  2.87  3.63   2.42
+550  EC  27/04/2019               Maidstone  ...  2.61  3.55   2.69
+551  EC  27/04/2019                 Wrexham  ...  2.18  3.55   3.36
+
+[552 rows x 54 columns]","    Div        Date   Time      HomeTeam  ... MaxCAHH  MaxCAHA  AvgCAHH AvgCAHA
+0    EC  03/08/2019  12:30     Stockport  ...    1.98     1.97     1.91    1.91
+1    EC  03/08/2019  15:00     Aldershot  ...    2.04     1.95     1.94    1.88
+2    EC  03/08/2019  15:00        Barnet  ...    1.98     1.95     1.94    1.88
+3    EC  03/08/2019  15:00  Chesterfield  ...    1.95     2.04     1.90    1.93
+4    EC  03/08/2019  15:00       Chorley  ...    1.88     2.06     1.82    2.01
+..   ..         ...    ...           ...  ...     ...      ...      ...     ...
+446  EC  14/03/2020  15:00         Fylde  ...    2.00     1.98     1.91    1.91
+447  EC  14/03/2020  15:00    Maidenhead  ...    1.86     2.11     1.77    2.06
+448  EC  14/03/2020  15:00  Notts County  ...    1.94     2.04     1.84    1.98
+449  EC  14/03/2020  15:00        Sutton  ...    2.11     1.81     2.05    1.78
+450  EC  14/03/2020  17:20       Halifax  ...    1.91     2.03     1.84    1.99
+
+[451 rows x 98 columns]"

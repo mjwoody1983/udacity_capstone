@@ -3,6 +3,7 @@ import pandas as pd
 from urllib.request import urlopen
 import chardet
 import traceback
+import csv
 
 now = dt.datetime.now()
 
@@ -42,7 +43,7 @@ with open("log.txt", "w") as log:
                 fd = urlopen(url_path + y + '/' + files.replace("'", ""))
                 cDet = chardet.detect(urlopen(url_path + y + '/' + files.replace("'", "")).read())
                 e_coding = cDet.get('encoding')
-                df = pd.read_csv(fd, sep='delimiter', encoding=e_coding, engine='python')
+                df = pd.read_csv(fd, encoding=e_coding, error_bad_lines=False)
                 print('File loaded')
                 arc_results.append(df)
             except Exception as e:
@@ -51,7 +52,11 @@ with open("log.txt", "w") as log:
                 log.write('Triggered by the following variable: ' + file_missing)
                 traceback.print_exc(file=log)
                 continue
-frame = pd.concat(arc_results)
+with open("list_check.csv", 'w', newline='') as myfile:
+    wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+    wr.writerow(arc_results)
+
+frame = pd.concat(arc_results, ignore_index=True)
 
 extra_results = []
 with open("log_extra.txt", "w") as log:
@@ -72,10 +77,9 @@ with open("log_extra.txt", "w") as log:
             traceback.print_exc(file=log)
             continue
 frame_extra = pd.concat(extra_results)
-print(frame_extra)
+
 
 current_season = []
-
 with open("log_extra.txt", "w") as log:
     for f in files_to_load:
         try:
@@ -92,8 +96,8 @@ with open("log_extra.txt", "w") as log:
             fd = urlopen(url_path + year_url + '/' + f.replace("'", ""))
             c_det = chardet.detect(urlopen(url_path + year_url + '/' + f.replace("'", "")).read())
             e_coding = c_det.get('encoding')
-            df = pd.read_csv(fd, sep='delimiter', encoding=e_coding, engine='python')
-            print('Extra File loaded: ' + f)
+            df = pd.read_csv(fd, encoding=e_coding)
+            print('Current Season File loaded: ' + f)
             current_season.append(df)
         except Exception as e:
             print('logging_exception and continuing')
@@ -101,9 +105,25 @@ with open("log_extra.txt", "w") as log:
             log.write('Triggered by the following variable: ' + error_file)
             traceback.print_exc(file=log)
             continue
-frame_extra = pd.concat(current_season)
-print(frame_extra)
+frame_current_season = pd.concat(current_season)
 
 
+# Load fixtures
+with open("log_extra.txt", "w") as log:
+    try:
+        print(url_ext_path + '/fixtures.csv')
+        fd_fix = urlopen(url_ext_path + '/fixtures.csv')
+        c_det = chardet.detect(urlopen(url_ext_path + '/fixtures.csv').read())
+        e_coding = c_det.get('encoding')
+        fix_df = pd.read_csv(fd_fix, sep='delimiter', encoding=e_coding, engine='python')
+        print(fix_df)
+    except Exception as e:
+        print('logging_exception and continuing')
+        error_file = url_ext_path + '/fixtures.csv'
+        log.write('Triggered by the following variable: ' + error_file)
+        traceback.print_exc(file=log)
 
-
+frame.to_csv('historic_data.csv', index=False)
+frame_extra.to_csv('additional_season.csv', index=False)
+frame_current_season.to_csv('current_data.csv', index=False)
+fix_df.to_csv('fixtures.csv', index=False)
