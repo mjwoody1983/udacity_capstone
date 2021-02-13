@@ -4,8 +4,13 @@ from urllib.request import urlopen
 import chardet
 import traceback
 import csv
+from decouple import config
 
 now = dt.datetime.now()
+
+API_USERNAME = config('USER')
+
+print(API_USERNAME)
 
 # ***********************************************************************************
 #                       VARIABLES SECTION FOR FUNCTION
