@@ -9,7 +9,7 @@ import pandas as pd
 
 
 # My API key
-API_KEY = '1992c2f27140469ac11c01ef90048c56'
+API_KEY = ''
 
 SPORT = []  # populate the league into this variable
 
