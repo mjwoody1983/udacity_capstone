@@ -1,5 +1,5 @@
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0001/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -15,7 +15,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/000
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0102/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -31,7 +31,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/010
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0203/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -47,7 +47,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/020
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0304/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -63,7 +63,7 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/030
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
 Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0405/EC.csvTraceback (most recent call last):
-  File "C:/Dev/udacity_capstone/historic_data/main.py", line 43, in <module>
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
     fd = urlopen(url_path + y + '/' + files.replace("'", ""))
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
     return opener.open(url, data, timeout)
@@ -78,3 +78,963 @@ Triggered by the following variable: https://www.football-data.co.uk/mmz4281/040
   File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 649, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 300: Multiple Choices
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0001/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0001/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0102/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0102/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0203/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0203/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0304/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0304/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0405/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0405/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0506/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0506/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0607/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0607/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0708/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0708/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0809/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0809/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0910/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0910/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1011/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1011/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1112/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1112/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1213/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1213/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1314/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1314/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1415/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1415/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1516/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1516/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1617/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1617/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1718/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1718/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1819/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1819/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1920/ d2.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1920/ d2.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0001/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0001/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0102/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0102/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0203/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0203/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0304/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0304/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0405/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0405/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0506/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0506/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0607/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0607/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0708/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0708/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0809/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0809/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/0910/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/0910/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1011/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1011/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1112/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1112/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1213/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1213/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1314/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1314/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1415/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1415/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1516/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1516/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1617/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1617/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1718/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1718/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1819/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1819/ f1.csv' (found at least ' ')
+Triggered by the following variable: https://www.football-data.co.uk/mmz4281/1920/ f1.csvTraceback (most recent call last):
+  File "C:/Dev/udacity_capstone/historic_data/main.py", line 48, in <module>
+    fd = urlopen(url_path + y + '/' + files.replace("'", ""))
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 542, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 502, in _call_chain
+    result = func(*args)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1393, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\urllib\request.py", line 1350, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1266, in _send_request
+    self.putrequest(method, url, **skips)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1100, in putrequest
+    self._validate_path(url)
+  File "C:\Users\martyn_woodison\anaconda3\envs\historic_data\lib\http\client.py", line 1200, in _validate_path
+    raise InvalidURL(f"URL can't contain control characters. {url!r} "
+http.client.InvalidURL: URL can't contain control characters. '/mmz4281/1920/ f1.csv' (found at least ' ')

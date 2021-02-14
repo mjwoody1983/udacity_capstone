@@ -6,10 +6,11 @@ import time
 from datetime import datetime
 import psycopg2
 import pandas as pd
+from decouple import config
 
 
 # My API key
-API_KEY = ''
+API_KEY = config('api_key')
 
 SPORT = []  # populate the league into this variable
 
@@ -95,3 +96,4 @@ df['target_0'] = 1 / (df['stripped_0'] / 1)
 df['target_1'] = 1 / (df['stripped_1'] / 1)
 df['target_2'] = 1 / (df['stripped_2'] / 1)
 print(df)
+df.to_csv('odds.csv', index=False)
